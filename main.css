@@ -86,38 +86,74 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* Begin Body */
-body{
-  background-color: #f5f3f1;
-}
+   /* General Settings */
+   body, ul, li, h1, h2, a, div, nav, p, form{
+     margin: 0;
+     padding: 0;
+   }
 
-/* Begin Header */
-header{
-  background-color: #e3ded8;
-  padding: 10px 5px 10px 5px;
-}
-header p{
-  margin: auto;
-  font-family: "Cabin", sans-serif;
-  font-size: 12pt;
-  color: #132121;
-}
+   /* Begin Body */
+   body{
+     background-color: #f5f3f1;
+   }
 
-/* Begin navigation panel */
-div.banner{
-  margin: 10px;
-}
-div.banner img{
-  height: 84px;
-  width: 84px;
-}
-div.banner p{
-  font-family: "Oswald", sans-serif;
-  color: #132121;
-  font-size: 30pt;
-}
+   /* Begin Header */
+   header{
+     background-color: #e3ded8;
+     padding: 10px 5px 10px 5px;
+   }
+   header p{
+     margin: auto;
+     font-family: "Cabin", sans-serif;
+     font-size: 12pt;
+     color: #132121;
+   }
 
+   /* Begin Banner */
+   div.banner{
+     margin: 10px;
+   }
+   div.banner img{
+     height: 84px;
+     width: 84px;
+   }
+   div.banner p{
+     font-family: "Oswald", sans-serif;
+     color: #132121;
+     font-size: 30pt;
+   }
 
+   /* Begin Navigation Panel */
+
+   /*Begin Top Album Section */
+  .top_albums{
+    text-align: center;
+    margin: 80px 0;
+    position: relative;
+  }
+  .top_albums li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+  }
+  .top_albums li img{
+    max-width: 100%;
+  }
+  ul p{
+    position: relative;
+    text-align: center;
+  }
+  img.left{
+    width: 100%;
+    float: left;
+    width: 35%;
+  }
+  img.right{
+    width: 100%;
+    float: right;
+    width: 35%;
+  }
 
 
 
