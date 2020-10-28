@@ -86,74 +86,97 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   /* General Settings */
-   body, ul, li, h1, h2, a, div, nav, p, form{
-     margin: 0;
-     padding: 0;
-   }
+    /* General Settings */
+     body, ul, li, h1, h2, a, div, nav, p, form{
+       margin: 0;
+       padding: 0;
+     }
 
-   /* Begin Body */
-   body{
-     background-color: #f5f3f1;
-   }
+     /* Begin Body */
+     body{
+       background-color: #f5f3f1;
+     }
 
-   /* Begin Header */
-   header{
-     background-color: #e3ded8;
-     padding: 10px 5px 10px 5px;
-   }
-   header p{
-     margin: auto;
-     font-family: "Cabin", sans-serif;
-     font-size: 12pt;
-     color: #132121;
-   }
+     /* Begin Header */
+     header{
+       background-color: #e3ded8;
+       padding: 10px 5px 10px 5px;
+     }
+     header p{
+       margin: auto;
+       font-family: "Cabin", sans-serif;
+       font-size: 12pt;
+       color: #132121;
+     }
 
-   /* Begin Banner */
-   div.banner{
-     margin: 10px;
-   }
-   div.banner img{
-     height: 84px;
-     width: 84px;
-   }
-   div.banner p{
-     font-family: "Oswald", sans-serif;
-     color: #132121;
-     font-size: 30pt;
-   }
+     /* Begin Banner */
+     section.banner{
+       margin: 10px;
+       max-width: 50%;
+       position: absolute;
+     }
+     section.banner img{
+       height: 84px;
+       width: 84px;
+       float: left;
+       margin: 5px 15px 5px 5px;
+       position: relative;
+     }
+     section.banner p{
+       font-family: "Oswald", sans-serif;
+       color: #132121;
+       font-size: 30pt;
+       position: relative;
+       padding-top: 20px;
+       width: 700px;
+       max-height: 84px;
+     }
 
-   /* Begin Navigation Panel */
+     /* Begin Navigation Panel */
+     nav.main_nav{
+       max-width: 45%;
+       margin: 20px;
+       float: right;
+       position: relative;
+     }
+     nav.main_nav ul{
+       margin: 0;
+       padding: 0;
+       list-style-type: none;
+       background-color: #e3ded8;
+       overflow: hidden;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: row;
+     }
+     nav.main_nav li{
+       float: right;
+     }
+     nav.main_nav li a{
+       display: block;
+       text-align: center;
+       font-size: 28px;
+       font-family: "Oswald", sans-serif;
+       color: #132121;
+       text-decoration: none;
+       margin-left: 20px;
+       margin-right: 20px;
+       padding: 10px;
+     }
 
-   /*Begin Top Album Section */
-  .top_albums{
-    text-align: center;
-    margin: 80px 0;
-    position: relative;
-  }
-  .top_albums li{
-    display: inline-block;
-    width: 40%;
-    margin: 20px;
-    padding: 20px;
-  }
-  .top_albums li img{
-    max-width: 100%;
-  }
-  ul p{
-    position: relative;
-    text-align: center;
-  }
-  img.left{
-    width: 100%;
-    float: left;
-    width: 35%;
-  }
-  img.right{
-    width: 100%;
-    float: right;
-    width: 35%;
-  }
+     /* Begin Index Page Top Album Section */
+
+     /* Begin About Page Hero Section */
+     section.band_group{
+       max-width: 100%;
+     }
+     section.band_group ul{
+       list-style-type: none;
+     }
+     section.band_group img{
+       margin: 20px 0px 0px 0px;
+     }
 
 
 
