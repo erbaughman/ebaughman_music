@@ -8,14 +8,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+
+  <!-- Off Canvas Menu -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="tour.html">Tour</a>
+    <a href="music.html">Music</a>
+  </div>
+  <!-- End Off Canvas Menu -->
 
   <!-- Beginning of top email banner -->
   <header>
@@ -31,16 +40,17 @@
 
   <nav class="main_nav">
     <ul>
-      <li><a href="/home.html">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/tour.html">Tour</a></li>
-      <li><a href="/music.html">Music</a></li>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="tour.html">Tour</a></li>
+      <li><a href="music.html">Music</a></li>
     </ul>
+    <span class="hamburger" onclick="openNav()">&#9776;</span>
   </nav>
   <!-- Ending navigator panel -->
 
   <!-- Beginning main hero section -->
-  <main>
+  <main class="home_topsection">
     <div class="top_album">
       <img src="surface home/The Man That Loves You The Most.jpg" alt="left album" class="left">
     </div>

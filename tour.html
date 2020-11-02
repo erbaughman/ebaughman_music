@@ -6,15 +6,23 @@
   <title>Zac Brown Band</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+
+  <!-- Off Canvas Menu -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="tour.html">Tour</a>
+    <a href="music.html">Music</a>
+  </div>
+  <!-- End Off Canvas Menu -->
 
   <!-- Beginning of top email banner -->
   <header>
@@ -35,6 +43,7 @@
       <li><a href="tour.html">Tour</a></li>
       <li><a href="music.html">Music</a></li>
     </ul>
+    <span class="hamburger" onclick="openNav()">&#9776;</span>
   </nav>
   <!-- Ending navigator panel -->
 

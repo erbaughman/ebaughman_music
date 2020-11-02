@@ -87,7 +87,161 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+    /* General Settings */
+    body, ul, li, h1, h2, a, div, nav, p, form{
+      margin: 0;
+      padding: 0;
+    }
 
+    /* Begin Body */
+    body{
+      background-color: #f5f3f1;
+      overflow-x: hidden;
+    }
+
+    /* Begin Header */
+    header{
+      background-color: #e3ded8;
+      padding: 10px 5px 10px 5px;
+    }
+    header p{
+      margin: auto;
+      font-family: "Cabin", sans-serif;
+      font-size: 12pt;
+      color: #132121;
+    }
+
+    /* Begin Banner */
+    section.banner{
+      margin: 10px;
+      max-width: 50%;
+      position: absolute;
+    }
+    section.banner img{
+      height: 84px;
+      width: 84px;
+      float: left;
+      margin: 5px 15px 5px 5px;
+      position: relative;
+    }
+    section.banner p{
+      font-family: "Oswald", sans-serif;
+      color: #132121;
+      font-size: 30pt;
+      position: relative;
+      padding-top: 20px;
+      width: 700px;
+      max-height: 84px;
+    }
+
+    /* Begin Navigation Panel */
+    nav.main_nav{
+      max-width: 45%;
+      margin: 20px;
+      float: right;
+      position: relative;
+    }
+    nav.main_nav ul{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      background-color: #e3ded8;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    nav.main_nav li{
+      float: right;
+    }
+    nav.main_nav li a{
+      display: block;
+      text-align: center;
+      font-size: 28px;
+      font-family: "Oswald", sans-serif;
+      color: #132121;
+      text-decoration: none;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 10px;
+    }
+
+    /* Begin Index Page Top Album Section */
+
+    /* this basic group of styles creates the outermost box for your main sections. Add other classes to sections or divs (that are the outermost container) and paste these styles in */
+
+    .home_topsection{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin: 0px;
+    }
+
+    /* Begin About Page Hero Section */
+    section.band_group{
+      max-width: 100%;
+    }
+    section.band_group ul{
+      list-style-type: none;
+    }
+    section.band_group img{
+      margin: 20px 0px 0px 0px;
+    }
+
+    /* Off Canvas Menu */
+
+    .hamburger{
+      font-size: 30px;
+      cursor: pointer;
+      color: #000;
+      display: inline;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    #main {
+      transition: margin-right .5s;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
 
 
 
