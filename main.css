@@ -86,7 +86,233 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+    /* Begin Index Page Top Album Section */
+    div.center_me{
+      color: #1c1b1b;
+      font-family: "Oswald", sans-serif;
+      font-size: 48pt;
+      text-align: center;
+      margin: 20px;
+    }
+    div.center_me a{
+      color: #1c1b1b;
+      font-family: "Oswald", sans-serif;
+      font-size: 32pt;
+      border: 2pt solid #1c1b1b;
+      text-align: center;
+      text-decoration: none;
+      padding: 10px;
+    }
 
+    /* Begin Index Page Zamily Section */
+    div.zamily{
+      float: left;
+      width: 40%;
+      height: 600px;
+      background: #132121;
+      margin-top: 50px;
+    }
+    div.zamily .zamily_center{
+      font-family: "Oswald", sans-serif;
+      font-size: 48pt;
+      color: #f5f3f1;
+      text-align: center;
+      margin-top: 100px;
+    }
+    div p1{
+      font-family: "Cabin", sans-serif;
+      font-size: 28pt;
+      color: #f5f3f1;
+      text-align: center;
+    }
+    div.zamily ul{
+      list-style-type: none;
+      flex-direction: row;
+      display: flex;
+      align: center;
+    }
+    div.zamily li{
+      padding: 5px;
+      margin-top: 30px;
+      text-align: center;
+    }
+    div.zamily img{
+      margin: 20px;
+    }
+
+    /* Begin Index Page Music Section */
+    section.music{
+      background: #e3ded8;
+      float: right;
+      margin-top: 50px;
+      width: 60%;
+      height: 600px;
+    }
+    section ul.music_pics{
+      flex-direction: row;
+      display: flex;
+      align: center;
+    }
+    section ul.music_pics li{
+      list-style-type: none;
+      flex-direction: row;
+      margin: 20px;
+    }
+    #first{
+      position: absolute;
+      width: 254px;
+      height: 254px;
+      left: 773px;
+      top: 700px;
+    }
+    #second{
+      position: absolute;
+      width: 254px;
+      height: 254px;
+      left: 1103px;
+      top: 700px;
+    }
+    #top{
+      position: absolute;
+      width: 306px;
+      height: 306px;
+      left: 910px;
+      top: 674px;
+    }
+    div.music_center{
+      position: relative;
+      left: 430px;
+      top: 300px;
+      font-family: "Oswald", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 71px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #1C1B1B;
+      width: 100%;
+    }
+    div.music_center p1{
+      font-family: "Cabin", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 34px;
+      align-items: center;
+      text-align: center;
+      color: #1C1B1B;
+      width: 100%;
+    }
+    div.music_center a{
+      text-decoration: none;
+      border: 2pt solid #1c1b1b;
+      font-family: "Oswald", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      align-items: center;
+      text-align: center;
+      color: #1C1B1B;
+    }
+
+    /* Begin Index Page Camp Section */
+    section.camp img{
+      width: 100vw;
+      height: 875px;
+      position: relative;
+    }
+    section.camp div.campground img{
+      width: auto;
+      height: auto;
+      position: absolute;
+      left: 643px;
+      top: 1300px;
+    }
+    section.camp h2{
+      position: absolute;
+      width: 202px;
+      height: 108px;
+      left: 890px;
+      top: 1332px;
+      font-family: "Cabin", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 38px;
+      display: flex;
+      align-items: center;
+      color: #F5F3F1;
+    }
+    section.camp h1{
+      position: absolute;
+      width: 558px;
+      height: 108px;
+      left: 712px;
+      top: 1491px;
+      font-family: "Oswald", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 71px;
+      display: flex;
+      align-items: center;
+      color: #F5F3F1;
+    }
+    section.camp p{
+      position: absolute;
+      width: 749px;
+      height: 243px;
+      left: 712px;
+      top: 1585px;
+      font-family: "Cabin", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 32px;
+      color: #F5F3F1;
+    }
+    section.camp a{
+      position: absolute;
+      width: 267px;
+      height: 49px;
+      left: 715px;
+      top: 1851px;
+      font-family: "Oswald", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 33px;
+      line-height: 49px;
+      border: 3px solid #F5F3F1;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #F5F3F1;
+      text-decoration: none;
+    }
+    /* Begin About Page Hero Section */
+    section.band_group{
+      max-width: 100%;
+    }
+    section.band_group ul{
+      list-style-type: none;
+    }
+    section.band_group img{
+      margin: 20px 0px 0px 0px;
+    }
+
+
+    /* this basic group of styles creates the outermost box for your main sections. Add other classes to sections or divs (that are the outermost container) and paste these styles in */
+    .home_topsection{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin: 0px;
+    }
     /* General Settings */
     body, ul, li, h1, h2, a, div, nav, p, form{
       margin: 0;
@@ -173,115 +399,16 @@ textarea {
       padding: 10px;
     }
 
-    /* Begin Index Page Top Album Section */
-    div.center_me{
-      color: #1c1b1b;
-      font-family: "Oswald", sans-serif;
-      font-size: 48pt;
-      text-align: center;
-      margin: 20px;
-    }
-    div.center_me a{
-      color: #1c1b1b;
-      font-family: "Oswald", sans-serif;
-      font-size: 32pt;
-      border: 2pt solid #1c1b1b;
-      text-align: center;
-      text-decoration: none;
-      padding: 10px;
-    }
-
-    /* Begin Index Page Zamily Section */
-    div.zamily{
-      float: left;
-      width: 40%;
-      height: 600px;
-      background: #132121;
-      margin-top: 50px;
-    }
-    div.zamily .zamily_center{
-      font-family: "Oswald", sans-serif;
-      font-size: 48pt;
-      color: #f5f3f1;
-      text-align: center;
-      margin-top: 100px;
-    }
-    div p1{
-      font-family: "Cabin", sans-serif;
-      font-size: 28pt;
-      color: #f5f3f1;
-      text-align: center;
-    }
-    div.zamily ul{
-      list-style-type: none;
-      flex-direction: row;
-      display: flex;
-      align: center;
-    }
-    div.zamily li{
-      padding: 5px;
-      margin-top: 30px;
-      text-align: center;
-    }
-    div.zamily img{
-      margin: 20px;
-    }
-
-    /* Begin Index Page Music Section */
-    section.music{
-      background: #e3ded8;
-      float: right;
-      margin-top: 50px;
-      width: 60%;
-      height: 600px;
-    }
-    section ul.music_pics{
-      flex-direction: row;
-      display: flex;
-      align: center;
-    }
-    section ul.music_pics li{
-      list-style-type: none;
-      flex-direction: row;
-      margin: 20px;
-    }
-    div.music_center{
-      text-align: center;
-      font-family: "Oswald", sans-serif;
-      font-size: 48pt;
-      color: #1c1b1b;
-      text-decoration: none;
-    }
-    div.music_center p1{
-      font-family: "Cabin", sans-serif;
-      font-size: 28pt;
-      color: #1c1b1b;
-      text-align: center;
-    }
-    div.music_center a{
-      text-decoration: none;
-      border: 2pt solid #1c1b1b;
-      font-family: "Oswald", sans-serif;
-      font-size: 24pt;
-      color: #1c1b1b;
-      padding: 10px;
-    }
-
-    /* Begin Index Page Camp Section */
-    
-
-    /* this basic group of styles creates the outermost box for your main sections. Add other classes to sections or divs (that are the outermost container) and paste these styles in */
-    .home_topsection{
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
-      margin: 0px;
-    }
+    /* Contact Section */
     section.contact{
       background: #1c1b1b;
       width: 100%;
+    }
+    section.contact p{
+      font-family: "Oswald", sans-serif;
+      color: #f5f3f1;
+      font-size: 18pt;
+      text-align: center;
     }
     section.contact form{
       font-family: "Cabin", sans-serif;
@@ -298,15 +425,15 @@ textarea {
       float: right;
     }
 
-    /* Begin About Page Hero Section */
-    section.band_group{
-      max-width: 100%;
+    /* Begin Footer Section */
+    footer{
+      background: #1c1b1b;
     }
-    section.band_group ul{
-      list-style-type: none;
-    }
-    section.band_group img{
-      margin: 20px 0px 0px 0px;
+    footer p{
+      font-family: "Oswald", sans-serif;
+      color: #f5f3f1;
+      font-size: 18pt;
+      text-align: center;
     }
 
     /* Off Canvas Menu */
@@ -316,7 +443,6 @@ textarea {
       color: #000;
       display: none;
     }
-
     .sidenav {
       height: 100%;
       width: 0;
@@ -329,7 +455,6 @@ textarea {
       transition: 0.5s;
       padding-top: 60px;
     }
-
     .sidenav a {
       padding: 8px 8px 8px 32px;
       text-decoration: none;
@@ -338,11 +463,9 @@ textarea {
       display: block;
       transition: 0.3s;
     }
-
     .sidenav a:hover {
       color: #f1f1f1;
     }
-
     .sidenav .closebtn {
       position: absolute;
       top: 0;
@@ -359,9 +482,6 @@ textarea {
       .sidenav {padding-top: 15px;}
       .sidenav a {font-size: 18px;}
     }
-
-
-
 
 
 /* ==========================================================================
