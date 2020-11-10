@@ -87,6 +87,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
     /* Begin Index Page Top Album Section */
+    div.top_album{
+      margin-top: 20px;
+    }
     div.center_me{
       color: #1c1b1b;
       font-family: "Oswald", sans-serif;
@@ -292,15 +295,131 @@ textarea {
       color: #F5F3F1;
       text-decoration: none;
     }
+
     /* Begin About Page Hero Section */
-    section.band_group{
-      max-width: 100%;
+    section.band_group img{
+      width: 100vw;
+      margin-top: 25px;
     }
-    section.band_group ul{
+
+    /* Begin Main Section of People and Descriptions */
+    main.band_members{
+      background-color: #e3ded8;
+      padding: 25px;
+    }
+    main.band_members section li{
       list-style-type: none;
     }
-    section.band_group img{
-      margin: 20px 0px 0px 0px;
+    main.band_members section li img.left_image{
+      float: left;
+      margin: 25px;
+    }
+    main.band_members section li img.right_image{
+      float: right;
+      margin: 25px;
+    }
+    main.band_members h1{
+      font-family: "Oswald", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 71px;
+      color: #132121;
+      text-align: left;
+      padding-top: 20px;
+    }
+    main.band_members h1.right{
+      padding-left: 25px;
+      padding-top: 40px;
+    }
+    main.band_members p{
+      font-family: "Cabin", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 28px;
+      color: #132121;
+      padding-bottom: 70px;
+      padding-left: 25px;
+      padding-right: 50px;
+      padding-top: 20px;
+      width: 75vw;
+      background-color: #f5f3f1;
+    }
+    main.band_members p.left{
+      width: 85vw;
+      padding-left: 0px;
+      margin-left: 25px;
+      padding-bottom: 55px;
+    }
+
+    /* Tour Top Hero Section */
+    div.logo{
+      margin-top: 125px;
+    }
+    div.logo #concrete{
+      position: absolute;
+      width: 100vw;
+    }
+    div.logo #logo{
+      position: relative;
+      top: 75px;
+      left: 38vw;
+    }
+
+    /* Music Top New Album */
+    section.new_album li{
+      list-style-type: none;
+      background-color: #132121;
+      margin-top: 125px;
+      padding-top: 50px;
+      padding-bottom: 75px;
+      padding-left: 330px;
+    }
+    section.new_album h1{
+      font-family: "Oswald", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 72px;
+      line-height: 107px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #f5f3f1;
+      position: absolute;
+      width: 455px;
+      height: 112px;
+      left: 840px;
+      top: 369px;
+    }
+    section.new_album h2{
+      font-family: "Oswald", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 56px;
+      line-height: 83px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #f5f3f1;
+      position: absolute;
+      width: 383px;
+      height: 90px;
+      left: 876px;
+      top: 481px;
+    }
+
+    /* Music Cover Grid */
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: none;
+      padding: 10px;
+      margin: 20px 40px 80px 40px;
+    }
+    .grid-item {
+      background-color: none;
+      padding: 20px;
     }
 
 
@@ -404,6 +523,7 @@ textarea {
       background: #1c1b1b;
       width: 100%;
     }
+
     section.contact p{
       font-family: "Oswald", sans-serif;
       color: #f5f3f1;
