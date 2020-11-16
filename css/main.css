@@ -11,6 +11,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+   @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Oswald:wght@400;500&display=swap');
+
 html {
   color: #222;
   font-size: 1em;
@@ -97,6 +99,11 @@ textarea {
     body{
       background-color: #f5f3f1;
       overflow-x: hidden;
+      font-family: "Cabin", sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6{
+      font-family: "Oswald", sans-serif;
     }
 
     /* Begin Header */
@@ -109,6 +116,13 @@ textarea {
       font-family: "Cabin", sans-serif;
       font-size: 12pt;
       color: #132121;
+    }
+
+    header form input{
+      height: 55px;
+      width: 50%;
+      border: none;
+      background-color: rgba(0,0,0,0);
     }
 
     /* Begin Banner */
@@ -190,6 +204,137 @@ textarea {
     section.band_group img{
       margin: 20px 0px 0px 0px;
     }
+
+    /* Camp Section */
+
+    .camp{
+      background-image: url('../img/home/Zac at Camp.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100vw;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 800px;
+    }
+
+    .campground {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+      width: 35%;
+      position: relative;
+      left: 22%;
+      top: -120px;
+  }
+
+    .camp_center{
+      display: flex;
+    
+      align-items: center;
+      flex-direction: row;
+    }
+
+    .camp_center img{
+      width: 15%;
+      margin-right: 1%;
+    }
+
+    .smallcaps{
+      text-transform: uppercase;
+      font-size: 22px;
+    }
+
+    a.fauxbutton{
+      border: 1px solid #fff;
+      color: #fff;
+      text-decoration: none;
+      width: 150px;
+      text-align: center;
+      margin: 2% 0% 2% 0%;
+    }
+
+    /* Contact Section */
+
+    .contact{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #000;
+      color: #fff;
+      padding: 2% 0% 2% 0%;
+    }
+
+    .contactform{
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+
+    .contact_left,
+    .contact_right{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+    }
+
+    .contactform input{
+      width: 65%;
+      height: 50px;
+      margin: 2%;
+    }
+
+    .contactform textarea{
+      width: 65%;
+      height: 150px;
+      margin: 2%;
+    }
+
+    .contactform button{
+      width: 75px;
+      height: 50px;
+      margin: 2%;
+    }
+
+    input::placeholder{
+      font-size: 16px;
+      color: #000;
+      padding-left: 10px;
+    }
+
+    textarea::placeholder{
+      font-size: 16px;
+      color: #000;
+      padding-left: 10px;
+      padding-top: 5px;
+    }
+
+
+
+    /* Footer Section */
+
+    footer{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #000;
+      height: 100px;
+      color: #fff;
+    }
+
+  
 
     /* Off Canvas Menu */
 
