@@ -319,6 +319,66 @@ textarea {
       padding-top: 5px;
     }
 
+    /* Gridbox Settings */
+
+    .gridbox{
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      flex-direction: row;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .left_gridbox,
+    .right_gridbox{
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .left_gridbox ul,
+    .right_gridbox ul{
+      list-style-type: none;
+    }
+
+    .right_gridbox button{
+      width: 120px;
+      height: 55px;
+      background-color: #000;
+      border: none;
+      color: #fff;
+      font-size: 20px;
+      margin: 2%;
+    }
+
+    .right_gridbox button a{
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .circledates {
+      background-color: #000;
+      color: #fff;
+      padding: 6px 16px;
+      border-radius: 30px;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 25px;
+      position: relative;
+      top: -10px;
+  }
+
+    span.enlargeme{
+      font-size: 26px;
+    }
+
+    
 
 
     /* Footer Section */
@@ -342,7 +402,7 @@ textarea {
       font-size: 30px;
       cursor: pointer;
       color: #000;
-      display: inline;
+      display: none;
     }
 
     .sidenav {
@@ -387,6 +447,32 @@ textarea {
       .sidenav {padding-top: 15px;}
       .sidenav a {font-size: 18px;}
     }
+
+/* Media Queries */
+
+/* iPad */
+
+@media screen and (max-width: 768px){
+
+
+   
+}
+
+/* iPhone 5 */
+
+@media screen and (max-width: 320px){
+
+  
+  .hamburger{
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+    display: inline;
+  }
+
+
+
+}
 
 
 
