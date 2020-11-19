@@ -389,6 +389,88 @@ textarea {
      left: 38vw;
    }
 
+   /* Tour Gridbox Settings */
+
+    .gridbox{
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      flex-direction: row;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .left_gridbox,
+    .right_gridbox{
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .left_gridbox ul,
+    .right_gridbox ul{
+      list-style-type: none;
+    }
+
+    li.gridbox{
+      width: 1200px;
+    }
+
+    .gridbox div{
+      width: 1000px;
+      margin-right: 20px;
+    }
+
+    div.right_gridbox{
+      margin-left: 100px;
+    }
+
+    .right_gridbox ul{
+      width: 100%;
+    }
+
+    .right_gridbox button{
+      width: 120px;
+      height: 55px;
+      background-color: #1c1b1b;
+      border: none;
+      color: #f5f3f1;
+      font-size: 20px;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      margin: 24%;
+    }
+
+    .right_gridbox button a{
+      text-decoration: none;
+      color: #f5f3f1;
+    }
+
+    .circledates{
+      width: 75px;
+      background-color: #1c1b1b;
+      font-family: "Oswald", sans-serif;
+      font-size: 10px;
+      color: #f5f3f1;
+      padding: 32px 32px;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-left: 450px;
+      position: relative;
+      top: -10px;
+    }
+
+    span.enlargeme{
+      font-size: 26px;
+      font-family: "Oswald", sans-serif;
+      color: #f5f3f5;
+    }
+
    /* Tour Locations */
 
    main.tours{
@@ -603,7 +685,7 @@ textarea {
     nav.main_nav li:hover{
       background-color: #132121;
     }
-    
+
     nav.main_nav li a:hover{
       color: #f5f3f1;
     }
@@ -669,18 +751,18 @@ textarea {
       height: 45px;
       margin: 2%;
       background-color: #f5f3f1;
-      color: #132121;
+      color: #1c1b1b;
     }
 
     input::placeholder{
       font-size: 16px;
-      color: #132121;
+      color: #1c1b1b;
       padding-left: 10px;
     }
 
     textarea::placeholder{
       font-size: 16px;
-      color: #132121;
+      color: #1c1b1b;
       padding-left: 10px;
       padding-top: 5px;
     }
@@ -718,7 +800,7 @@ textarea {
       z-index: 1;
       top: 0;
       right: 0;
-      background-color: #111;
+      background-color: #1c1b1b;
       overflow-x: hidden;
       transition: 0.5s;
       padding-top: 60px;
@@ -734,7 +816,7 @@ textarea {
     }
 
     .sidenav a:hover {
-      color: #f1f1f1;
+      color: #f5f3f1;
     }
 
     .sidenav .closebtn {
