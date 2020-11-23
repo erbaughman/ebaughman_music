@@ -118,19 +118,20 @@ textarea {
       color: #132121;
     }
 
-    header form input{
+    header form input {
       height: 55px;
       width: 50%;
       border: none;
       background-color: rgba(0,0,0,0);
-    }
+      margin-left: 30px;
+  }
 
     /* Begin Banner */
-    section.banner{
-      margin: 10px;
+    section.banner {
+      margin: 10px 0px 10px 30px;
       max-width: 50%;
       position: absolute;
-    }
+  }
     section.banner img{
       height: 84px;
       width: 84px;
@@ -149,6 +150,12 @@ textarea {
     }
 
     /* Begin Navigation Panel */
+
+    .topnav{
+      background-color: #F5F3F1;
+      height: 120px;
+    }
+
     nav.main_nav{
       max-width: 45%;
       margin: 20px;
@@ -319,6 +326,79 @@ textarea {
       padding-top: 5px;
     }
 
+    .homebanner{
+      width: 100vw;
+      height: 650px;
+      background-color: #F5F3F1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .musicbanner{
+      width: 100vw;
+      height: 650px;
+      background-color: #132121;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .tourbanner{
+      width: 100vw;
+      height: 650px;
+      background-image: url('../img/tour/concrete\ texture.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .aboutbanner{
+      width: 100vw;
+      height: 650px;
+      background-image: url('../img/about/Whole\ Band\ Sit\ &\ Stand.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .new_album{
+      width: 45%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      flex-direction: row;
+      color: #fff;
+    }
+
+    .grid-container-2 {
+      display: flex;
+      width: 95%;
+      justify-content: center;
+=     align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0 auto;
+  }
+
+  .grid-item{
+    margin: 2%;
+  }
+
+
+
+
     /* Gridbox Settings */
 
     .gridbox{
@@ -462,6 +542,9 @@ textarea {
 
 @media screen and (max-width: 320px){
 
+  nav.main_nav ul {
+display: none;
+  }
   
   .hamburger{
     font-size: 30px;
@@ -470,6 +553,19 @@ textarea {
     display: inline;
   }
 
+
+  .contactform {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_left,
+.contact_right{
+  width: 100%;
+}
 
 
 }
