@@ -177,7 +177,7 @@ textarea {
      position: absolute;
      width: 254px;
      height: 254px;
-     left: 873px;
+     left: 760px;
      top: 750px;
    }
 
@@ -185,7 +185,7 @@ textarea {
      position: absolute;
      width: 254px;
      height: 254px;
-     left: 1203px;
+     left: 1090px;
      top: 750px;
    }
 
@@ -193,7 +193,7 @@ textarea {
      position: absolute;
      width: 306px;
      height: 306px;
-     left: 1010px;
+     left: 897px;
      top: 724px;
    }
 
@@ -209,7 +209,7 @@ textarea {
      font-size: 48px;
      line-height: 71px;
      display: flex;
-     padding-left: 450px;
+     padding-left: 400px;
      color: #1C1B1B;
      width: 100%;
    }
@@ -220,14 +220,14 @@ textarea {
      font-weight: normal;
      font-size: 28px;
      line-height: 34px;
-     padding-left: 290px;
-     padding-right: 290px;
+     padding-left: 250px;
+     padding-right: 250px;
      color: #1C1B1B;
      width: 100%;
    }
 
    div.music_center div{
-     padding-left: 435px;
+     padding-left: 385px;
      margin-top: 20px;
    }
 
@@ -284,6 +284,19 @@ textarea {
    .smallcaps{
      text-transform: uppercase;
      font-size: 22px;
+     color: #132121;
+   }
+
+   .goodness{
+     text-transform: uppercase;
+     width: 400px;
+     padding: 10px 10px 10px 0px;
+     color: #132121;
+   }
+
+   .camp p{
+     background: rgba(19, 33, 33, 0.6);
+     padding: 10px;
    }
 
    a.fauxbutton{
@@ -310,11 +323,11 @@ textarea {
      margin-top: 25px;
    }
 
-   /* Begin Main Section of People and Descriptions */
+   /* Begin About Page Main Section of People and Descriptions */
 
    main.band_members{
      background-color: #e3ded8;
-     padding: 25px;
+     padding: 25px 25px 100px 25px;
    }
 
    main.band_members section li{
@@ -391,6 +404,10 @@ textarea {
 
    /* Tour Gridbox Settings */
 
+   main.tours.gridbox{
+     margin-left: 215px;
+   }
+
     .gridbox{
       display: flex;
       justify-content: center;
@@ -424,7 +441,8 @@ textarea {
     }
 
     div.right_gridbox{
-      margin-left: 100px;
+      margin-left: 75px;
+      margin-right: 75px;
     }
 
     .right_gridbox ul{
@@ -440,7 +458,7 @@ textarea {
       font-size: 20px;
       font-family: "Oswald", sans-serif;
       text-transform: uppercase;
-      margin: 24%;
+      margin: 24% 35%;
     }
 
     .right_gridbox button a{
@@ -493,14 +511,26 @@ textarea {
    }
 
    main.tours li p{
+     font-family: "Oswald", sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 29px;
+     color: #f5f3f1;
+     margin: none;
+     padding: 5px 0px 10px 0px;
+   }
+
+   #venue{
      font-family: "Cabin", sans-serif;
      font-style: normal;
      font-weight: 500;
      font-size: 24px;
      line-height: 29px;
-     color: #1C1B1B;
+     color: #f5f3f1;
      margin: none;
-     padding: 5px 0px 10px 0px;
+     padding: 0px 0px 10px 0px;
+     color: #1c1b1b;
    }
 
    section.buttons ul{
@@ -571,15 +601,15 @@ textarea {
    }
 
    /* Music Cover Grid */
-   .grid-container {
+   .grid-container-2 {
      display: grid;
      grid-template-columns: auto auto auto;
      background-color: #f5f3f1;
      padding: 10px;
-     margin: 20px 40px 80px 40px;
+     margin: 20px 40px 80px 70px;
    }
 
-   .grid-item {
+   .grid-container-2 .grid-item {
      background-color: none;
      padding: 20px;
    }
@@ -596,12 +626,14 @@ textarea {
     }
 
     /* General Settings */
+
     body, ul, li, h1, h2, a, div, nav, p, form{
       margin: 0;
       padding: 0;
     }
 
     /* Begin Body */
+
     body{
       background-color: #f5f3f1;
       overflow-x: hidden;
@@ -613,6 +645,7 @@ textarea {
     }
 
     /* Begin Header */
+
     header{
       background-color: #e3ded8;
       padding: 10px 5px 10px 5px;
@@ -633,6 +666,7 @@ textarea {
     }
 
     /* Begin Banner */
+
     section.banner{
       margin: 10px;
       max-width: 50%;
@@ -732,6 +766,10 @@ textarea {
       color: #f5f3f1;
     }
 
+    .contact_right{
+      padding-left: 450px;
+    }
+
     .contactform input{
       width: 65%;
       height: 50px;
@@ -740,7 +778,7 @@ textarea {
     }
 
     .contactform textarea{
-      width: 65%;
+      width: 90%;
       height: 130px;
       margin: 2%;
       background-color: #f5f3f1;
@@ -767,8 +805,6 @@ textarea {
       padding-top: 5px;
     }
 
-
-
     /* Footer Section */
 
     footer{
@@ -781,8 +817,6 @@ textarea {
       height: 100px;
       color: #f5f3f1;
     }
-
-
 
     /* Off Canvas Menu */
 
@@ -831,13 +865,1487 @@ textarea {
       transition: margin-right .5s;
     }
 
-    @media screen and (max-height: 450px) {
+    /* Begin Media Query for iPad */
+
+    @media screen and (max-width: 768px) {
       .sidenav {padding-top: 15px;}
       .sidenav a {font-size: 18px;}
+
+      /* Begin Index Page Top Album Section */
+
+      div.top_album{
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      div.top_album img{
+        height: 232px;
+        width: 232px;
+      }
+
+      div.center_me{
+        color: #1c1b1b;
+        font-family: "Oswald", sans-serif;
+        font-size: 30pt;
+        text-align: center;
+        margin: 20px;
+      }
+
+      div.center_me a{
+        color: #1c1b1b;
+        font-family: "Oswald", sans-serif;
+        font-size: 20pt;
+        border: 2pt solid #1c1b1b;
+        text-align: center;
+        text-decoration: none;
+        padding: 5px;
+      }
+
+      /* Begin Index Page Zamily Section */
+
+      div.zamily{
+        float: left;
+        width: 40%;
+        height: 400px;
+        background: #132121;
+        margin-top: 50px;
+      }
+
+      div.zamily .zamily_center{
+        font-family: "Oswald", sans-serif;
+        font-size: 30pt;
+        color: #f5f3f1;
+        text-align: center;
+        margin-top: 60px;
+      }
+
+      div p1{
+        font-family: "Cabin", sans-serif;
+        font-size: 16pt;
+        color: #f5f3f1;
+        text-align: center;
+      }
+
+      .zamily-grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: none;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      .grid-item {
+        background-color: none;
+        padding: 5px;
+        align-items: center;
+      }
+
+      .grid-item img{
+        height: 74px;
+        width: 74px;
+      }
+
+      /* Begin Index Page Music Section */
+
+      section.music{
+        background: #e3ded8;
+        float: right;
+        margin-top: 50px;
+        width: 60%;
+        height: 400px;
+      }
+
+      section ul.music_pics{
+        flex-direction: row;
+        display: flex;
+        align: center;
+      }
+
+      section ul.music_pics li{
+        list-style-type: none;
+        flex-direction: row;
+        margin: 20px;
+      }
+
+      #first{
+        position: absolute;
+        width: 138px;
+        height: 138px;
+        left: 360px;
+        top: 490px;
+      }
+
+      #second{
+        position: absolute;
+        width: 138px;
+        height: 138px;
+        left: 590px;
+        top: 490px;
+      }
+
+      #top{
+        position: absolute;
+        width: 166px;
+        height: 166px;
+        left: 467px;
+        top: 464px;
+      }
+
+      div.music_center{
+        position: relative;
+        top: 175px;
+      }
+
+      div.music_center h1{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 60px;
+        display: flex;
+        padding-left: 200px;
+        color: #1C1B1B;
+        width: 100%;
+      }
+
+      div.music_center p1{
+        font-family: "Cabin", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 120px;
+        padding-right: 90px;
+        color: #1C1B1B;
+        width: 100%;
+      }
+
+      div.music_center div{
+        padding-left: 190px;
+        margin-top: 20px;
+      }
+
+      div.music_center a{
+        text-decoration: none;
+        border: 2pt solid #1c1b1b;
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 36px;
+        color: #1C1B1B;
+        padding: 5px;
+      }
+
+      /* Camp Section */
+
+      .camp{
+        background-image: url('../img/home/Zac at Camp.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 800px;
+      }
+
+      .campground {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: #132121;
+        width: 35%;
+        position: relative;
+        left: 22%;
+        top: -120px;
+      }
+
+      .camp_center{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      .camp_center img{
+        width: 20%;
+        margin-right: 2%;
+      }
+
+      .smallcaps{
+        text-transform: uppercase;
+        font-family: "Cabin", sans-serif;
+        font-size: 14pt;
+        line-height: 20px;
+      }
+
+      .goodness{
+        font-size: 20pt;
+        text-transform: uppercase;
+        width: 300px;
+        padding: 10px 10px 10px 0px;
+      }
+
+      .camp p{
+        color: #f5f3f1;
+        font-size: 10pt;
+        padding-bottom: 10px;
+        background: rgba(19, 33, 33, 0.6);
+        padding: 10px;
+      }
+
+      a.fauxbutton{
+        border: 1px solid #f5f3f1;
+        color: #f5f3f1;
+        text-decoration: none;
+        width: 150px;
+        text-align: center;
+        margin: 2% 0% 2% 0%;
+      }
+
+      /* Begin About Page Main Section of People and Descriptions */
+
+      main.band_members{
+        background-color: #e3ded8;
+        padding: 15px 15px 80px 15px;
+      }
+
+      main.band_members section li{
+        list-style-type: none;
+      }
+
+      main.band_members section li img.left_image{
+        float: left;
+        margin: 0px 25px 0px 25px;
+        padding-top: 73px;
+        width: 175px;
+        height: 175px;
+      }
+
+      main.band_members section li img.right_image{
+        float: right;
+        margin: 0px 25px 0px 25px;
+        padding-top: 97px;
+        width: 175px;
+        height: 175px;
+      }
+
+      main.band_members h1{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 60px;
+        color: #132121;
+        text-align: left;
+        padding-top: 20px;
+      }
+
+      main.band_members h1.right{
+        padding-left: 25px;
+        padding-top: 40px;
+      }
+
+      main.band_members p{
+        font-family: "Cabin", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #132121;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 50px;
+        padding-top: 20px;
+        width: 75vw;
+        height: 140px;
+        background-color: #f5f3f1;
+      }
+
+      main.band_members p.left{
+        width: 85vw;
+        height: 140px;
+        padding-left: 0px;
+        margin-left: 25px;
+        padding-bottom: 20px;
+      }
+
+      /* Tour Top Hero Section */
+
+      div.logo{
+        height: 300px;
+        margin-top: 75px;
+      }
+
+      div.logo #concrete{
+        position: absolute;
+        width: 100vw;
+      }
+
+      div.logo #logo{
+        position: relative;
+        top: 45px;
+        left: 38vw;
+        height: 172px;
+        width: 172px;
+      }
+
+      /* Tour Gridbox Settings */
+
+      main.tours.gridbox{
+        margin-left: 55px;
+        margin-top: 20px;
+      }
+
+       .gridbox{
+         display: flex;
+         justify-content: center;
+         align-items: baseline;
+         flex-direction: row;
+         width: 100%;
+         margin: 0 auto;
+       }
+
+       .left_gridbox,
+       .right_gridbox{
+         width: 45%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+       }
+
+       .left_gridbox ul,
+       .right_gridbox ul{
+         list-style-type: none;
+       }
+
+       li.gridbox{
+         width: 1000px;
+       }
+
+       .gridbox div{
+         width: 800px;
+         margin-right: 20px;
+       }
+
+       div.right_gridbox{
+         margin-left: 20px;
+       }
+
+       .right_gridbox ul{
+         width: 100%;
+       }
+
+       .right_gridbox button{
+         width: 120px;
+         height: 55px;
+         background-color: #1c1b1b;
+         border: none;
+         color: #f5f3f1;
+         font-size: 20px;
+         font-family: "Oswald", sans-serif;
+         text-transform: uppercase;
+         margin: 20%;
+       }
+
+       .right_gridbox button a{
+         text-decoration: none;
+         color: #f5f3f1;
+       }
+
+       .circledates{
+         width: 75px;
+         background-color: #1c1b1b;
+         font-family: "Oswald", sans-serif;
+         font-size: 36px;
+         color: #f5f3f1;
+         padding: 32px 32px;
+         border-radius: 30px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         margin-left: 400px;
+         position: relative;
+         top: -10px;
+       }
+
+       span.enlargeme{
+         font-size: 30px;
+         font-family: "Oswald", sans-serif;
+         color: #f5f3f5;
+       }
+
+      /* Tour Locations */
+
+      main.tours{
+        background-color: #f5f3f1;
+        width: 50vw;
+        margin: 125px 10px 75px 300px;
+      }
+
+      main.tours ul{
+        list-style-type: none;
+      }
+
+      main.tours li h2{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 65px;
+        color: #1C1B1B;
+      }
+
+      main.tours li p{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 29px;
+        color: #f5f3f1;
+        margin: none;
+        padding: 5px 0px 10px 0px;
+      }
+
+      #venue{
+        font-family: "Cabin", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 29px;
+        color: #f5f3f1;
+        margin: none;
+        padding: 0px 0px 10px 0px;
+        color: #1c1b1b;
+      }
+
+      section.buttons ul{
+        list-style-type: none;
+      }
+
+      section.buttons{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 53px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        float: right;
+        position: relative;
+      }
+
+      section.buttons a{
+        text-decoration: none;
+        color: #132121;
+      }
+
+      /* Music Top New Album */
+
+      section.new_album li{
+        list-style-type: none;
+        background-color: #132121;
+        margin-top: 125px;
+        padding-top: 50px;
+        padding-bottom: 75px;
+        padding-left: 100px;
+      }
+
+      section.new_album li img{
+        height: 273px;
+        width: 273px;
+      }
+
+      section.new_album h1{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 107px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #f5f3f1;
+        position: absolute;
+        width: 455px;
+        height: 112px;
+        left: 420px;
+        top: 250px;
+      }
+
+      section.new_album h2{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 83px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #f5f3f1;
+        position: absolute;
+        width: 383px;
+        height: 90px;
+        left: 450px;
+        top: 350px;
+      }
+
+      /* Music Cover Grid */
+      .grid-container-2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #f5f3f1;
+        padding: 10px;
+        margin: 10px 10px 50px 20px;
+      }
+
+      .grid-container-2 .grid-item {
+        background-color: none;
+        padding: 15px;
+      }
+
+      .grid-container-2 .grid-item img{
+        height: 198px;
+        width: 198px;
+      }
+
+      /* this basic group of styles creates the outermost box for your main sections. Add other classes to sections or divs (that are the outermost container) and paste these styles in */
+
+      /* Begin Header */
+      header{
+        background-color: #e3ded8;
+        padding: 7px 5px 7px 5px;
+      }
+
+      header p{
+        margin: auto;
+        font-family: "Cabin", sans-serif;
+        font-size: 12pt;
+        color: #132121;
+      }
+
+      header form input{
+        height: 35px;
+        width: 50%;
+        border: none;
+        background-color: rgba(0,0,0,0);
+      }
+
+      /* Begin Banner */
+      section.banner{
+        margin: 10px;
+        max-width: 40%;
+        position: absolute;
+      }
+
+      section.banner img{
+        height: 43px;
+        width: 43px;
+        float: left;
+        margin: 5px 15px 5px 5px;
+        position: relative;
+      }
+
+      section.banner p{
+        font-family: "Oswald", sans-serif;
+        color: #132121;
+        font-size: 20pt;
+        position: relative;
+        padding-top: 10px;
+        width: 700px;
+        max-height: 84px;
+      }
+
+      /* Begin Navigation Panel */
+
+      nav.main_nav{
+        max-width: 60%;
+        margin: 10px 20px 10px 10px;
+        float: right;
+        position: relative;
+      }
+
+      nav.main_nav ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background-color: #e3ded8;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      nav.main_nav li{
+        float: right;
+      }
+
+      nav.main_nav li:hover{
+        background-color: #132121;
+      }
+
+      nav.main_nav li a:hover{
+        color: #f5f3f1;
+      }
+
+      nav.main_nav li a{
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        font-family: "Oswald", sans-serif;
+        color: #132121;
+        text-decoration: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+      }
+
+      /* Contact Section */
+
+      .contact{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #132121;
+        color: #f5f3f1;
+        padding: 2% 0% 2% 0%;
+        font-size: 12pt;
+      }
+
+      .contactform{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      .contact_left,
+      .contact_right{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: #f5f3f1;
+      }
+
+      .contact_right{
+        padding-left: 150px;
+      }
+
+      .contactform input{
+        width: 65%;
+        height: 30px;
+        margin: 5%;
+        background-color: #f5f3f1;
+      }
+
+      .contactform textarea{
+        width: 90%;
+        height: 100px;
+        margin: 2%;
+        background-color: #f5f3f1;
+      }
+
+      .contactform button{
+        width: 90px;
+        height: 35px;
+        margin: 2%;
+        background-color: #f5f3f1;
+        color: #1c1b1b;
+      }
+
+      input::placeholder{
+        font-size: 14px;
+        color: #1c1b1b;
+        padding-left: 10px;
+      }
+
+      textarea::placeholder{
+        font-size: 14px;
+        color: #1c1b1b;
+        padding-left: 10px;
+        padding-top: 5px;
+      }
+
+      /* Footer Section */
+
+      footer{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #132121;
+        height: 80px;
+        color: #f5f3f1;
+        font-size: 12pt;
+      }
     }
 
+    /* Begin Media Query for iPhone */
 
+    @media screen and (max-width: 320px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
 
+      /* this basic group of styles creates the outermost box for your main sections. Add other classes to sections or divs (that are the outermost container) and paste these styles in */
+
+      /* Off Canvas Menu */
+
+      .hamburger{
+        font-size: 30px;
+        cursor: pointer;
+        color: #132121;
+        display: inline;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        background-color: #1c1b1b;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+
+      .sidenav a:hover {
+        color: #f5f3f1;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      #main {
+        transition: margin-right .5s;
+      }
+
+      /* Begin Navigation Panel */
+
+      nav.main_nav ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background-color: #e3ded8;
+        overflow: hidden;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      /* Begin Index Page Top Album Section */
+
+      div.top_album{
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 5px;
+      }
+
+      div.top_album img{
+        height: 170px;
+        width: 170px;
+      }
+
+      div.top_album .right{
+        display: none;
+      }
+
+      div.center_me{
+        color: #1c1b1b;
+        font-family: "Oswald", sans-serif;
+        font-size: 18px;
+        text-align: center;
+        margin: 15px;
+      }
+
+      div.center_me p{
+        margin-bottom: 10px;
+      }
+
+      div.center_me a{
+        color: #1c1b1b;
+        font-family: "Oswald", sans-serif;
+        font-size: 15px;
+        border: 2pt solid #1c1b1b;
+        text-align: center;
+        text-decoration: none;
+        padding: 2px;
+      }
+
+      /* Begin Index Page Zamily Section */
+
+      div.zamily{
+        width: 100vw;
+        height: 300px;
+        background: #132121;
+        margin-top: 30px;
+      }
+
+      div.zamily .zamily_center{
+        font-family: "Oswald", sans-serif;
+        font-size: 30px;
+        color: #f5f3f1;
+        text-align: center;
+        margin-top: 60px;
+      }
+
+      div p1{
+        font-family: "Cabin", sans-serif;
+        font-size: 16pt;
+        color: #f5f3f1;
+        text-align: center;
+      }
+
+      .zamily-grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: none;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      .grid-item {
+        background-color: none;
+        padding: 5px;
+        align-items: center;
+      }
+
+      .grid-item img{
+        height: 74px;
+        width: 74px;
+      }
+
+      /* Begin Index Page Music Section */
+
+      section.music{
+        background: #e3ded8;
+        width: 100vw;
+        height: 350px;
+        margin-top: 0px;
+      }
+
+      section ul.music_pics{
+        flex-direction: row;
+        display: flex;
+        align: center;
+      }
+
+      section ul.music_pics li{
+        list-style-type: none;
+        flex-direction: row;
+        margin: 20px;
+      }
+
+      #first{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        left: 20px;
+        top: 675px;
+      }
+
+      #second{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        left: 170px;
+        top: 675px;
+      }
+
+      #top{
+        position: absolute;
+        width: 145px;
+        height: 145px;
+        left: 80px;
+        top: 660px;
+      }
+
+      div.music_center{
+        position: relative;
+        top: 130px;
+     }
+
+     div.music_center h1{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 60px;
+        display: flex;
+        padding-left: 125px;
+        color: #1C1B1B;
+        width: 100%;
+      }
+
+      div.music_center p1{
+        font-family: "Cabin", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 50px;
+        padding-right: 10px;
+        color: #1C1B1B;
+        width: 100%;
+      }
+
+      div.music_center div{
+        padding-left: 115px;
+        margin-top: 20px;
+      }
+
+      div.music_center a{
+        text-decoration: none;
+        border: 2pt solid #1c1b1b;
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 36px;
+        color: #1C1B1B;
+        padding: 5px;
+      }
+
+      /* Camp Section */
+
+      .camp {
+        background-image: url('../img/home/Zac at Camp.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 600px;
+      }
+
+      .campground {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: #132121;
+        width: 100vw;
+        position: relative;
+        left: 15px;
+        top: -20px;
+      }
+
+      .camp_center {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      .camp_center img {
+        width: 20%;
+        margin-right: 2%;
+      }
+
+      .smallcaps{
+        text-transform: uppercase;
+        font-family: "Cabin", sans-serif;
+        font-size: 18px;
+        line-height: 20px;
+      }
+
+      .goodness{
+        font-size: 20pt;
+        text-transform: uppercase;
+        width: 300px;
+        padding: 10px 10px 10px 0px;
+      }
+
+      .camp p{
+        color: #f5f3f1;
+        font-size: 15px;
+        background: rgba(19, 33, 33, 0.6);
+        padding: 10px 15px 15px 10px;
+        width: 80vw;
+      }
+
+      a.fauxbutton{
+        border: 1px solid #f5f3f1;
+        color: #f5f3f1;
+        text-decoration: none;
+        width: 150px;
+        text-align: center;
+        margin: 2% 0% 2% 0%;
+      }
+
+      /* Begin About Page Main Section of People and Descriptions */
+
+      main.band_members{
+        background-color: #e3ded8;
+        padding: 15px 15px 80px 15px;
+      }
+
+      main.band_members section{
+        width: 100vw;
+      }
+
+      main.band_members section li{
+        list-style-type: none;
+      }
+
+      main.band_members section li img.left_image{
+        float: left;
+        margin: 5px 5px 5px 5px;
+        padding-top: 20px;
+        padding-right: 5px;
+        width: 90px;
+        height: 90px;
+      }
+
+      main.band_members section li img.right_image{
+        float: right;
+        margin: 5px 25px 8px 12px;
+        padding-top: 40px;
+        width: 90px;
+        height: 90px;
+      }
+
+      main.band_members h1{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        color: #132121;
+        text-align: left;
+        padding-top: 20px;
+      }
+
+      main.band_members h1.right{
+        padding: 40px 10px auto 0px;
+      }
+
+      main.band_members p{
+        font-family: "Cabin", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+        color: #132121;
+        padding-bottom: 25px;
+        width: 85vw;
+        height: 160px;
+        background-color: #f5f3f1;
+      }
+
+      main.band_members p.left{
+        width: 85vw;
+        height: 160px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        margin: 0px;
+      }
+
+      /* Tour Top Hero Section */
+
+      div.logo{
+        height: 250px;
+        margin-top: 75px;
+      }
+
+      div.logo #concrete{
+        position: absolute;
+        width: 100vw;
+        height: 250px;
+      }
+
+      div.logo #logo{
+        position: relative;
+        top: 45px;
+        left: 25vw;
+        height: 172px;
+        width: 172px;
+      }
+
+      /* Tour Gridbox Settings */
+
+      main.tours.gridbox{
+        margin-left: 55px;
+        margin-top: 20px;
+      }
+
+       .gridbox{
+         display: flex;
+         justify-content: center;
+         align-items: baseline;
+         flex-direction: row;
+         width: 100%;
+         margin: 0 auto;
+       }
+
+       .left_gridbox,
+       .right_gridbox{
+         width: 45%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+       }
+
+       .left_gridbox ul,
+       .right_gridbox ul{
+         list-style-type: none;
+       }
+
+       li.gridbox{
+         width: 1000px;
+       }
+
+       .gridbox div{
+         width: 800px;
+         margin-right: 20px;
+       }
+
+       div.right_gridbox{
+         margin-left: 20px;
+       }
+
+       .right_gridbox ul{
+         width: 100%;
+       }
+
+       .right_gridbox button{
+         width: 120px;
+         height: 55px;
+         background-color: #1c1b1b;
+         border: none;
+         color: #f5f3f1;
+         font-size: 20px;
+         font-family: "Oswald", sans-serif;
+         text-transform: uppercase;
+         margin: 20%;
+       }
+
+       .right_gridbox button a{
+         text-decoration: none;
+         color: #f5f3f1;
+       }
+
+       .circledates{
+         width: 75px;
+         background-color: #1c1b1b;
+         font-family: "Oswald", sans-serif;
+         font-size: 30px;
+         color: #f5f3f1;
+         padding: 20px 20px;
+         border-radius: 50px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         margin-left: 475px;
+         position: relative;
+         top: -10px;
+       }
+
+       span.enlargeme{
+         font-size: 24px;
+         font-family: "Oswald", sans-serif;
+         color: #f5f3f5;
+       }
+
+      /* Tour Locations */
+
+      main.tours{
+        background-color: #f5f3f1;
+        width: 50vw;
+        margin: 125px 10px 75px 300px;
+      }
+
+      main.tours ul{
+        list-style-type: none;
+      }
+
+      main.tours li h2{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 40px;
+        color: #1C1B1B;
+      }
+
+      main.tours li p{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #f5f3f1;
+        margin: none;
+        padding: 5px 0px 10px 0px;
+      }
+
+      #venue{
+        font-family: "Cabin", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #f5f3f1;
+        margin: none;
+        padding: 0px 0px 10px 0px;
+        color: #1c1b1b;
+      }
+
+      section.buttons ul{
+        list-style-type: none;
+      }
+
+      section.buttons{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 53px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        float: right;
+        position: relative;
+      }
+
+      section.buttons a{
+        text-decoration: none;
+        color: #132121;
+      }
+
+      /* Music Top New Album */
+
+      section.new_album li{
+        list-style-type: none;
+        background-color: #132121;
+        margin-top: 100px;
+        padding-top: 20px;
+        padding-bottom: 35px;
+        padding-left: 25px;
+      }
+
+      section.new_album li img{
+        height: 131px;
+        width: 131px;
+      }
+
+      section.new_album h1{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 47px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #f5f3f1;
+        position: absolute;
+        width: 455px;
+        height: 72px;
+        left: 185px;
+        top: 170px;
+      }
+
+      section.new_album h2{
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #f5f3f1;
+        position: absolute;
+        width: 383px;
+        height: 30px;
+        left: 195px;
+        top: 230px;
+      }
+
+      /* Music Cover Grid */
+
+      .grid-container-2 {
+        display: grid;
+        grid-template-columns: 150px 150px;
+        background-color: #f5f3f1;
+        padding: 5px;
+        margin: 10px 0px 30px 0px;
+      }
+
+      .grid-container-2 .grid-item {
+        background-color: none;
+        padding: 15px;
+      }
+
+      .grid-container-2 .grid-item img{
+        height: 131px;
+        width: 131px;
+      }
+
+      /* Begin Header */
+
+      header{
+        background-color: #e3ded8;
+        padding: 7px 5px 7px 5px;
+      }
+
+      header p{
+        margin: auto;
+        font-family: "Cabin", sans-serif;
+        font-size: 14px;
+        color: #132121;
+      }
+
+      header form input{
+        height: 35px;
+        width: 80%;
+        border: none;
+        background-color: rgba(0,0,0,0);
+      }
+
+      /* Begin Banner */
+      section.banner{
+        margin: 10px;
+        max-width: 40%;
+        position: absolute;
+      }
+
+      section.banner img{
+        height: 43px;
+        width: 43px;
+        float: left;
+        margin: 5px 15px 5px 5px;
+        position: relative;
+      }
+
+      section.banner p{
+        font-family: "Oswald", sans-serif;
+        color: #132121;
+        font-size: 20px;
+        position: relative;
+        padding-top: 10px;
+        width: 700px;
+        max-height: 84px;
+      }
+
+      /* Contact Section */
+
+      .contact{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #132121;
+        color: #f5f3f1;
+        padding: 2% 0% 2% 0%;
+        font-size: 13px;
+      }
+
+      .contactform{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      .contact_left,
+      .contact_right{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: #f5f3f1;
+      }
+
+      .contact_right{
+        padding-left: 10px;
+      }
+
+      .contactform input{
+        width: 65%;
+        height: 30px;
+        margin: 5%;
+        background-color: #f5f3f1;
+      }
+
+      .contactform textarea{
+        width: 90%;
+        height: 100px;
+        margin: 2%;
+        background-color: #f5f3f1;
+      }
+
+      .contactform button{
+        width: 90px;
+        height: 35px;
+        margin: 2%;
+        background-color: #f5f3f1;
+        color: #1c1b1b;
+      }
+
+      input::placeholder{
+        font-size: 13px;
+        color: #1c1b1b;
+        padding-left: 10px;
+      }
+
+      textarea::placeholder{
+        font-size: 13px;
+        color: #1c1b1b;
+        padding-left: 10px;
+        padding-top: 5px;
+      }
+
+      /* Footer Section */
+
+      footer{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #132121;
+        height: 50px;
+        color: #f5f3f1;
+        font-size: 13px;
+      }
+    }
 
 
 /* ==========================================================================
