@@ -114,7 +114,7 @@ textarea {
 
    /* Begin Index Page Zamily Section */
 
-   div.zamily{
+   div.zamily {
      float: left;
      width: 40%;
      height: 600px;
@@ -122,7 +122,7 @@ textarea {
      margin-top: 50px;
    }
 
-   div.zamily .zamily_center{
+   div.zamily .zamily_center {
      font-family: "Oswald", sans-serif;
      font-size: 48pt;
      color: #f5f3f1;
@@ -130,7 +130,7 @@ textarea {
      margin-top: 100px;
    }
 
-   div p1{
+   div p1 {
      font-family: "Cabin", sans-serif;
      font-size: 28pt;
      color: #f5f3f1;
@@ -153,7 +153,7 @@ textarea {
 
    /* Begin Index Page Music Section */
 
-   section.music{
+   section.music {
      background: #e3ded8;
      float: right;
      margin-top: 50px;
@@ -161,19 +161,19 @@ textarea {
      height: 600px;
    }
 
-   section ul.music_pics{
+   section ul.music_pics {
      flex-direction: row;
      display: flex;
      align: center;
    }
 
-   section ul.music_pics li{
+   section ul.music_pics li {
      list-style-type: none;
      flex-direction: row;
      margin: 20px;
    }
 
-   #first{
+   #first {
      position: absolute;
      width: 254px;
      height: 254px;
@@ -181,7 +181,7 @@ textarea {
      top: 750px;
    }
 
-   #second{
+   #second {
      position: absolute;
      width: 254px;
      height: 254px;
@@ -189,7 +189,7 @@ textarea {
      top: 750px;
    }
 
-   #top{
+   #top {
      position: absolute;
      width: 306px;
      height: 306px;
@@ -197,12 +197,12 @@ textarea {
      top: 724px;
    }
 
-   div.music_center{
+   div.music_center {
      position: relative;
      top: 300px;
-  }
+   }
 
-  div.music_center h1{
+   div.music_center h1 {
      font-family: "Oswald", sans-serif;
      font-style: normal;
      font-weight: 600;
@@ -214,7 +214,7 @@ textarea {
      width: 100%;
    }
 
-   div.music_center p1{
+   div.music_center p1 {
      font-family: "Cabin", sans-serif;
      font-style: normal;
      font-weight: normal;
@@ -226,12 +226,12 @@ textarea {
      width: 100%;
    }
 
-   div.music_center div{
+   div.music_center div {
      padding-left: 385px;
      margin-top: 20px;
    }
 
-   div.music_center a{
+   div.music_center a {
      text-decoration: none;
      border: 2pt solid #1c1b1b;
      font-family: "Oswald", sans-serif;
@@ -245,7 +245,7 @@ textarea {
 
    /* Camp Section */
 
-   .camp{
+   .camp {
      background-image: url('../img/home/Zac at Camp.jpg');
      background-position: center;
      background-size: cover;
@@ -268,38 +268,38 @@ textarea {
      position: relative;
      left: 22%;
      top: -120px;
- }
+   }
 
-   .camp_center{
+   .camp_center {
      display: flex;
      align-items: center;
      flex-direction: row;
    }
 
-   .camp_center img{
+   .camp_center img {
      width: 15%;
      margin-right: 1%;
    }
 
-   .smallcaps{
+   .smallcaps {
      text-transform: uppercase;
      font-size: 22px;
      color: #132121;
    }
 
-   .goodness{
+   .goodness {
      text-transform: uppercase;
      width: 400px;
      padding: 10px 10px 10px 0px;
      color: #132121;
    }
 
-   .camp p{
+   .camp p {
      background: rgba(19, 33, 33, 0.6);
      padding: 10px;
    }
 
-   a.fauxbutton{
+   a.fauxbutton {
      border: 1px solid #f5f3f1;
      color: #f5f3f1;
      text-decoration: none;
@@ -310,41 +310,41 @@ textarea {
 
    /* Begin About Page Hero Section */
 
-   section.band_group{
+   section.band_group {
      max-width: 100%;
    }
 
-   section.band_group ul{
+   section.band_group ul {
      list-style-type: none;
    }
 
-   section.band_group img{
+   section.band_group img {
      width: 100vw;
      margin-top: 25px;
    }
 
    /* Begin About Page Main Section of People and Descriptions */
 
-   main.band_members{
+   main.band_members {
      background-color: #e3ded8;
      padding: 25px 25px 100px 25px;
    }
 
-   main.band_members section li{
+   main.band_members section li {
      list-style-type: none;
    }
 
-   main.band_members section li img.left_image{
+   main.band_members section li img.left_image {
      float: left;
      margin: 25px;
    }
 
-   main.band_members section li img.right_image{
+   main.band_members section li img.right_image {
      float: right;
      margin: 25px;
    }
 
-   main.band_members h1{
+   main.band_members h1 {
      font-family: "Oswald", sans-serif;
      font-style: normal;
      font-weight: 500;
@@ -355,12 +355,12 @@ textarea {
      padding-top: 20px;
    }
 
-   main.band_members h1.right{
+   main.band_members h1.right {
      padding-left: 25px;
      padding-top: 40px;
    }
 
-   main.band_members p{
+   main.band_members p {
      font-family: "Cabin", sans-serif;
      font-style: normal;
      font-weight: normal;
@@ -376,7 +376,7 @@ textarea {
      background-color: #f5f3f1;
    }
 
-   main.band_members p.left{
+   main.band_members p.left {
      width: 85vw;
      height: 109px;
      padding-left: 0px;
@@ -386,17 +386,17 @@ textarea {
 
    /* Tour Top Hero Section */
 
-   div.logo{
+   div.logo {
      height: 500px;
      margin-top: 125px;
    }
 
-   div.logo #concrete{
+   div.logo #concrete {
      position: absolute;
      width: 100vw;
    }
 
-   div.logo #logo{
+   div.logo #logo {
      position: relative;
      top: 75px;
      left: 38vw;
@@ -404,11 +404,11 @@ textarea {
 
    /* Tour Gridbox Settings */
 
-   main.tours.gridbox{
+   main.tours.gridbox {
      margin-left: 215px;
    }
 
-    .gridbox{
+    .gridbox {
       display: flex;
       justify-content: center;
       align-items: baseline;
@@ -418,7 +418,7 @@ textarea {
     }
 
     .left_gridbox,
-    .right_gridbox{
+    .right_gridbox {
       width: 45%;
       display: flex;
       justify-content: center;
@@ -427,29 +427,29 @@ textarea {
     }
 
     .left_gridbox ul,
-    .right_gridbox ul{
+    .right_gridbox ul {
       list-style-type: none;
     }
 
-    li.gridbox{
+    li.gridbox {
       width: 1200px;
     }
 
-    .gridbox div{
+    .gridbox div {
       width: 1000px;
       margin-right: 20px;
     }
 
-    div.right_gridbox{
+    div.right_gridbox {
       margin-left: 75px;
       margin-right: 75px;
     }
 
-    .right_gridbox ul{
+    .right_gridbox ul {
       width: 100%;
     }
 
-    .right_gridbox button{
+    .right_gridbox button {
       width: 120px;
       height: 55px;
       background-color: #1c1b1b;
@@ -461,12 +461,12 @@ textarea {
       margin: 24% 35%;
     }
 
-    .right_gridbox button a{
+    .right_gridbox button a {
       text-decoration: none;
       color: #f5f3f1;
     }
 
-    .circledates{
+    .circledates {
       width: 75px;
       background-color: #1c1b1b;
       font-family: "Oswald", sans-serif;
@@ -483,7 +483,7 @@ textarea {
       top: -10px;
     }
 
-    span.enlargeme{
+    span.enlargeme {
       font-size: 26px;
       font-family: "Oswald", sans-serif;
       color: #f5f3f5;
@@ -491,17 +491,17 @@ textarea {
 
    /* Tour Locations */
 
-   main.tours{
+   main.tours {
      background-color: #f5f3f1;
      width: 50vw;
      margin: 125px 10px 75px 300px;
    }
 
-   main.tours ul{
+   main.tours ul {
      list-style-type: none;
    }
 
-   main.tours li h2{
+   main.tours li h2 {
      font-family: "Oswald", sans-serif;
      font-style: normal;
      font-weight: bold;
@@ -510,7 +510,7 @@ textarea {
      color: #1C1B1B;
    }
 
-   main.tours li p{
+   main.tours li p {
      font-family: "Oswald", sans-serif;
      font-style: normal;
      font-weight: 500;
@@ -521,7 +521,7 @@ textarea {
      padding: 5px 0px 10px 0px;
    }
 
-   #venue{
+   #venue {
      font-family: "Cabin", sans-serif;
      font-style: normal;
      font-weight: 500;
@@ -533,11 +533,11 @@ textarea {
      color: #1c1b1b;
    }
 
-   section.buttons ul{
+   section.buttons ul {
      list-style-type: none;
    }
 
-   section.buttons{
+   section.buttons {
      font-family: "Oswald", sans-serif;
      font-style: normal;
      font-weight: bold;
@@ -550,14 +550,14 @@ textarea {
      position: relative;
    }
 
-   section.buttons a{
+   section.buttons a {
      text-decoration: none;
      color: #132121;
    }
 
    /* Music Top New Album */
 
-   section.new_album li{
+   section.new_album li {
      list-style-type: none;
      background-color: #132121;
      margin-top: 125px;
@@ -566,7 +566,7 @@ textarea {
      padding-left: 330px;
    }
 
-   section.new_album h1{
+   section.new_album h1 {
      font-family: "Oswald", sans-serif;
      font-style: normal;
      font-weight: bold;
@@ -583,7 +583,7 @@ textarea {
      top: 369px;
    }
 
-   section.new_album h2{
+   section.new_album h2 {
      font-family: "Oswald", sans-serif;
      font-style: normal;
      font-weight: 600;
@@ -616,7 +616,7 @@ textarea {
 
     /* this basic group of styles creates the outermost box for your main sections. Add other classes to sections or divs (that are the outermost container) and paste these styles in */
 
-    .home_topsection{
+    .home_topsection {
       width: 100vw;
       display: flex;
       justify-content: center;
@@ -627,53 +627,54 @@ textarea {
 
     /* General Settings */
 
-    body, ul, li, h1, h2, a, div, nav, p, form{
+    body, ul, li, h1, h2, a, div, nav, p, form {
       margin: 0;
       padding: 0;
     }
 
     /* Begin Body */
 
-    body{
+    body {
       background-color: #f5f3f1;
       overflow-x: hidden;
       font-family: "Cabin", sans-serif;
     }
 
-    h1, h2, h3, h4, h5, h6{
+    h1, h2, h3, h4, h5, h6 {
       font-family: "Oswald", sans-serif;
     }
 
     /* Begin Header */
 
-    header{
+    header {
       background-color: #e3ded8;
       padding: 10px 5px 10px 5px;
     }
 
-    header p{
+    header p {
       margin: auto;
       font-family: "Cabin", sans-serif;
       font-size: 12pt;
       color: #132121;
     }
 
-    header form input{
+    header form input {
       height: 55px;
       width: 50%;
       border: none;
       background-color: rgba(0,0,0,0);
+      margin-left: 30px;
     }
 
     /* Begin Banner */
 
-    section.banner{
-      margin: 10px;
+    section.banner {
+      margin: 10px 0px 10px 30px;
       max-width: 50%;
       position: absolute;
     }
 
-    section.banner img{
+    section.banner img {
       height: 84px;
       width: 84px;
       float: left;
@@ -681,7 +682,7 @@ textarea {
       position: relative;
     }
 
-    section.banner p{
+    section.banner p {
       font-family: "Oswald", sans-serif;
       color: #132121;
       font-size: 30pt;
@@ -693,14 +694,19 @@ textarea {
 
     /* Begin Navigation Panel */
 
-    nav.main_nav{
+    .topnav {
+      background-color: #f5f3f1;
+      height: 120px;
+    }
+
+    nav.main_nav {
       max-width: 45%;
       margin: 20px;
       float: right;
       position: relative;
     }
 
-    nav.main_nav ul{
+    nav.main_nav ul {
       margin: 0;
       padding: 0;
       list-style-type: none;
@@ -712,19 +718,19 @@ textarea {
       flex-direction: row;
     }
 
-    nav.main_nav li{
+    nav.main_nav li {
       float: right;
     }
 
-    nav.main_nav li:hover{
+    nav.main_nav li:hover {
       background-color: #132121;
     }
 
-    nav.main_nav li a:hover{
+    nav.main_nav li a:hover {
       color: #f5f3f1;
     }
 
-    nav.main_nav li a{
+    nav.main_nav li a {
       display: block;
       text-align: center;
       font-size: 28px;
@@ -738,7 +744,7 @@ textarea {
 
     /* Contact Section */
 
-    .contact{
+    .contact  {
       width: 100vw;
       display: flex;
       justify-content: center;
@@ -749,7 +755,7 @@ textarea {
       padding: 2% 0% 2% 0%;
     }
 
-    .contactform{
+    .contactform {
       width: 80%;
       display: flex;
       justify-content: center;
@@ -758,7 +764,7 @@ textarea {
     }
 
     .contact_left,
-    .contact_right{
+    .contact_right {
       width: 50%;
       display: flex;
       justify-content: center;
@@ -766,25 +772,25 @@ textarea {
       color: #f5f3f1;
     }
 
-    .contact_right{
+    .contact_right {
       padding-left: 450px;
     }
 
-    .contactform input{
+    .contactform input {
       width: 65%;
       height: 50px;
       margin: 2%;
       background-color: #f5f3f1;
     }
 
-    .contactform textarea{
+    .contactform textarea {
       width: 90%;
       height: 130px;
       margin: 2%;
       background-color: #f5f3f1;
     }
 
-    .contactform button{
+    .contactform button {
       width: 100px;
       height: 45px;
       margin: 2%;
@@ -792,22 +798,26 @@ textarea {
       color: #1c1b1b;
     }
 
-    input::placeholder{
+    input::placeholder {
       font-size: 16px;
       color: #1c1b1b;
       padding-left: 10px;
     }
 
-    textarea::placeholder{
+    textarea::placeholder {
       font-size: 16px;
       color: #1c1b1b;
       padding-left: 10px;
       padding-top: 5px;
     }
 
+    .grid-item {
+      margin: 2%;
+    }
+
     /* Footer Section */
 
-    footer{
+    footer {
       width: 100vw;
       display: flex;
       justify-content: center;
@@ -820,7 +830,7 @@ textarea {
 
     /* Off Canvas Menu */
 
-    .hamburger{
+    .hamburger {
       font-size: 30px;
       cursor: pointer;
       color: #132121;
@@ -873,18 +883,18 @@ textarea {
 
       /* Begin Index Page Top Album Section */
 
-      div.top_album{
+      div.top_album {
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
       }
 
-      div.top_album img{
+      div.top_album img {
         height: 232px;
         width: 232px;
       }
 
-      div.center_me{
+      div.center_me {
         color: #1c1b1b;
         font-family: "Oswald", sans-serif;
         font-size: 30pt;
@@ -892,7 +902,7 @@ textarea {
         margin: 20px;
       }
 
-      div.center_me a{
+      div.center_me a {
         color: #1c1b1b;
         font-family: "Oswald", sans-serif;
         font-size: 20pt;
@@ -904,7 +914,7 @@ textarea {
 
       /* Begin Index Page Zamily Section */
 
-      div.zamily{
+      div.zamily {
         float: left;
         width: 40%;
         height: 400px;
@@ -912,7 +922,7 @@ textarea {
         margin-top: 50px;
       }
 
-      div.zamily .zamily_center{
+      div.zamily .zamily_center {
         font-family: "Oswald", sans-serif;
         font-size: 30pt;
         color: #f5f3f1;
@@ -920,7 +930,7 @@ textarea {
         margin-top: 60px;
       }
 
-      div p1{
+      div p1 {
         font-family: "Cabin", sans-serif;
         font-size: 16pt;
         color: #f5f3f1;
@@ -941,14 +951,14 @@ textarea {
         align-items: center;
       }
 
-      .grid-item img{
+      .grid-item img {
         height: 74px;
         width: 74px;
       }
 
       /* Begin Index Page Music Section */
 
-      section.music{
+      section.music {
         background: #e3ded8;
         float: right;
         margin-top: 50px;
@@ -956,19 +966,19 @@ textarea {
         height: 400px;
       }
 
-      section ul.music_pics{
+      section ul.music_pics {
         flex-direction: row;
         display: flex;
         align: center;
       }
 
-      section ul.music_pics li{
+      section ul.music_pics li {
         list-style-type: none;
         flex-direction: row;
         margin: 20px;
       }
 
-      #first{
+      #first {
         position: absolute;
         width: 138px;
         height: 138px;
@@ -976,7 +986,7 @@ textarea {
         top: 490px;
       }
 
-      #second{
+      #second {
         position: absolute;
         width: 138px;
         height: 138px;
@@ -984,7 +994,7 @@ textarea {
         top: 490px;
       }
 
-      #top{
+      #top {
         position: absolute;
         width: 166px;
         height: 166px;
@@ -992,12 +1002,12 @@ textarea {
         top: 464px;
       }
 
-      div.music_center{
+      div.music_center {
         position: relative;
         top: 175px;
       }
 
-      div.music_center h1{
+      div.music_center h1 {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: 600;
@@ -1009,7 +1019,7 @@ textarea {
         width: 100%;
       }
 
-      div.music_center p1{
+      div.music_center p1 {
         font-family: "Cabin", sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -1021,12 +1031,12 @@ textarea {
         width: 100%;
       }
 
-      div.music_center div{
+      div.music_center div {
         padding-left: 190px;
         margin-top: 20px;
       }
 
-      div.music_center a{
+      div.music_center a {
         text-decoration: none;
         border: 2pt solid #1c1b1b;
         font-family: "Oswald", sans-serif;
@@ -1040,7 +1050,7 @@ textarea {
 
       /* Camp Section */
 
-      .camp{
+      .camp {
         background-image: url('../img/home/Zac at Camp.jpg');
         background-position: center;
         background-size: cover;
@@ -1065,13 +1075,13 @@ textarea {
         top: -120px;
       }
 
-      .camp_center{
+      .camp_center {
         display: flex;
         align-items: center;
         flex-direction: row;
       }
 
-      .camp_center img{
+      .camp_center img {
         width: 20%;
         margin-right: 2%;
       }
@@ -1083,14 +1093,14 @@ textarea {
         line-height: 20px;
       }
 
-      .goodness{
+      .goodness {
         font-size: 20pt;
         text-transform: uppercase;
         width: 300px;
         padding: 10px 10px 10px 0px;
       }
 
-      .camp p{
+      .camp p {
         color: #f5f3f1;
         font-size: 10pt;
         padding-bottom: 10px;
@@ -1098,7 +1108,7 @@ textarea {
         padding: 10px;
       }
 
-      a.fauxbutton{
+      a.fauxbutton {
         border: 1px solid #f5f3f1;
         color: #f5f3f1;
         text-decoration: none;
@@ -1109,16 +1119,16 @@ textarea {
 
       /* Begin About Page Main Section of People and Descriptions */
 
-      main.band_members{
+      main.band_members {
         background-color: #e3ded8;
         padding: 15px 15px 80px 15px;
       }
 
-      main.band_members section li{
+      main.band_members section li {
         list-style-type: none;
       }
 
-      main.band_members section li img.left_image{
+      main.band_members section li img.left_image {
         float: left;
         margin: 0px 25px 0px 25px;
         padding-top: 73px;
@@ -1126,7 +1136,7 @@ textarea {
         height: 175px;
       }
 
-      main.band_members section li img.right_image{
+      main.band_members section li img.right_image {
         float: right;
         margin: 0px 25px 0px 25px;
         padding-top: 97px;
@@ -1134,7 +1144,7 @@ textarea {
         height: 175px;
       }
 
-      main.band_members h1{
+      main.band_members h1 {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -1145,12 +1155,12 @@ textarea {
         padding-top: 20px;
       }
 
-      main.band_members h1.right{
+      main.band_members h1.right {
         padding-left: 25px;
         padding-top: 40px;
       }
 
-      main.band_members p{
+      main.band_members p {
         font-family: "Cabin", sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -1166,7 +1176,7 @@ textarea {
         background-color: #f5f3f1;
       }
 
-      main.band_members p.left{
+      main.band_members p.left {
         width: 85vw;
         height: 140px;
         padding-left: 0px;
@@ -1176,17 +1186,17 @@ textarea {
 
       /* Tour Top Hero Section */
 
-      div.logo{
+      div.logo {
         height: 300px;
         margin-top: 75px;
       }
 
-      div.logo #concrete{
+      div.logo #concrete {
         position: absolute;
         width: 100vw;
       }
 
-      div.logo #logo{
+      div.logo #logo {
         position: relative;
         top: 45px;
         left: 38vw;
@@ -1196,104 +1206,104 @@ textarea {
 
       /* Tour Gridbox Settings */
 
-      main.tours.gridbox{
+      main.tours.gridbox {
         margin-left: 55px;
         margin-top: 20px;
       }
 
-       .gridbox{
-         display: flex;
-         justify-content: center;
-         align-items: baseline;
-         flex-direction: row;
-         width: 100%;
-         margin: 0 auto;
-       }
+      .gridbox {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+      }
 
-       .left_gridbox,
-       .right_gridbox{
-         width: 45%;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
-       }
+      .left_gridbox,
+      .right_gridbox {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
 
-       .left_gridbox ul,
-       .right_gridbox ul{
-         list-style-type: none;
-       }
+      .left_gridbox ul,
+      .right_gridbox ul {
+        list-style-type: none;
+      }
 
-       li.gridbox{
-         width: 1000px;
-       }
+      li.gridbox {
+        width: 1000px;
+      }
 
-       .gridbox div{
-         width: 800px;
-         margin-right: 20px;
-       }
+      .gridbox div {
+        width: 800px;
+        margin-right: 20px;
+      }
 
-       div.right_gridbox{
-         margin-left: 20px;
-       }
+      div.right_gridbox {
+        margin-left: 20px;
+      }
 
-       .right_gridbox ul{
-         width: 100%;
-       }
+      .right_gridbox ul {
+        width: 100%;
+      }
 
-       .right_gridbox button{
-         width: 120px;
-         height: 55px;
-         background-color: #1c1b1b;
-         border: none;
-         color: #f5f3f1;
-         font-size: 20px;
-         font-family: "Oswald", sans-serif;
-         text-transform: uppercase;
-         margin: 20%;
-       }
+      .right_gridbox button {
+        width: 120px;
+        height: 55px;
+        background-color: #1c1b1b;
+        border: none;
+        color: #f5f3f1;
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+        text-transform: uppercase;
+        margin: 20%;
+      }
 
-       .right_gridbox button a{
-         text-decoration: none;
-         color: #f5f3f1;
-       }
+      .right_gridbox button a {
+        text-decoration: none;
+        color: #f5f3f1;
+      }
 
-       .circledates{
-         width: 75px;
-         background-color: #1c1b1b;
-         font-family: "Oswald", sans-serif;
-         font-size: 36px;
-         color: #f5f3f1;
-         padding: 32px 32px;
-         border-radius: 30px;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
-         margin-left: 400px;
-         position: relative;
-         top: -10px;
-       }
+      .circledates {
+        width: 75px;
+        background-color: #1c1b1b;
+        font-family: "Oswald", sans-serif;
+        font-size: 36px;
+        color: #f5f3f1;
+        padding: 32px 32px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 400px;
+        position: relative;
+        top: -10px;
+      }
 
-       span.enlargeme{
-         font-size: 30px;
-         font-family: "Oswald", sans-serif;
-         color: #f5f3f5;
-       }
+      span.enlargeme {
+        font-size: 30px;
+        font-family: "Oswald", sans-serif;
+        color: #f5f3f5;
+      }
 
       /* Tour Locations */
 
-      main.tours{
+      main.tours {
         background-color: #f5f3f1;
         width: 50vw;
         margin: 125px 10px 75px 300px;
       }
 
-      main.tours ul{
+      main.tours ul {
         list-style-type: none;
       }
 
-      main.tours li h2{
+      main.tours li h2 {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -1302,7 +1312,7 @@ textarea {
         color: #1C1B1B;
       }
 
-      main.tours li p{
+      main.tours li p {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -1313,7 +1323,7 @@ textarea {
         padding: 5px 0px 10px 0px;
       }
 
-      #venue{
+      #venue {
         font-family: "Cabin", sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -1325,11 +1335,11 @@ textarea {
         color: #1c1b1b;
       }
 
-      section.buttons ul{
+      section.buttons ul {
         list-style-type: none;
       }
 
-      section.buttons{
+      section.buttons {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -1342,14 +1352,14 @@ textarea {
         position: relative;
       }
 
-      section.buttons a{
+      section.buttons a {
         text-decoration: none;
         color: #132121;
       }
 
       /* Music Top New Album */
 
-      section.new_album li{
+      section.new_album li {
         list-style-type: none;
         background-color: #132121;
         margin-top: 125px;
@@ -1358,12 +1368,12 @@ textarea {
         padding-left: 100px;
       }
 
-      section.new_album li img{
+      section.new_album li img {
         height: 273px;
         width: 273px;
       }
 
-      section.new_album h1{
+      section.new_album h1 {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -1380,7 +1390,7 @@ textarea {
         top: 250px;
       }
 
-      section.new_album h2{
+      section.new_album h2 {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: 600;
@@ -1411,7 +1421,7 @@ textarea {
         padding: 15px;
       }
 
-      .grid-container-2 .grid-item img{
+      .grid-container-2 .grid-item img {
         height: 198px;
         width: 198px;
       }
@@ -1419,33 +1429,34 @@ textarea {
       /* this basic group of styles creates the outermost box for your main sections. Add other classes to sections or divs (that are the outermost container) and paste these styles in */
 
       /* Begin Header */
-      header{
+      header {
         background-color: #e3ded8;
         padding: 7px 5px 7px 5px;
       }
 
-      header p{
+      header p {
         margin: auto;
         font-family: "Cabin", sans-serif;
         font-size: 12pt;
         color: #132121;
       }
 
-      header form input{
+      header form input {
         height: 35px;
         width: 50%;
         border: none;
         background-color: rgba(0,0,0,0);
+        margin-left: 30px;
       }
 
       /* Begin Banner */
-      section.banner{
-        margin: 10px;
+      section.banner {
+        margin: 10px 0px 10px 30px;
         max-width: 40%;
         position: absolute;
       }
 
-      section.banner img{
+      section.banner img {
         height: 43px;
         width: 43px;
         float: left;
@@ -1453,7 +1464,7 @@ textarea {
         position: relative;
       }
 
-      section.banner p{
+      section.banner p {
         font-family: "Oswald", sans-serif;
         color: #132121;
         font-size: 20pt;
@@ -1465,14 +1476,19 @@ textarea {
 
       /* Begin Navigation Panel */
 
-      nav.main_nav{
+      .topnav {
+        background-color: #f5f3f1;
+        height: 120px;
+      }
+
+      nav.main_nav {
         max-width: 60%;
         margin: 10px 20px 10px 10px;
         float: right;
         position: relative;
       }
 
-      nav.main_nav ul{
+      nav.main_nav ul {
         margin: 0;
         padding: 0;
         list-style-type: none;
@@ -1484,19 +1500,19 @@ textarea {
         flex-direction: row;
       }
 
-      nav.main_nav li{
+      nav.main_nav li {
         float: right;
       }
 
-      nav.main_nav li:hover{
+      nav.main_nav li:hover {
         background-color: #132121;
       }
 
-      nav.main_nav li a:hover{
+      nav.main_nav li a:hover {
         color: #f5f3f1;
       }
 
-      nav.main_nav li a{
+      nav.main_nav li a {
         display: block;
         text-align: center;
         font-size: 18px;
@@ -1510,7 +1526,7 @@ textarea {
 
       /* Contact Section */
 
-      .contact{
+      .contact {
         width: 100vw;
         display: flex;
         justify-content: center;
@@ -1522,7 +1538,7 @@ textarea {
         font-size: 12pt;
       }
 
-      .contactform{
+      .contactform {
         width: 80%;
         display: flex;
         justify-content: center;
@@ -1531,7 +1547,7 @@ textarea {
       }
 
       .contact_left,
-      .contact_right{
+      .contact_right {
         width: 50%;
         display: flex;
         justify-content: center;
@@ -1539,25 +1555,25 @@ textarea {
         color: #f5f3f1;
       }
 
-      .contact_right{
+      .contact_right {
         padding-left: 150px;
       }
 
-      .contactform input{
+      .contactform input {
         width: 65%;
         height: 30px;
         margin: 5%;
         background-color: #f5f3f1;
       }
 
-      .contactform textarea{
+      .contactform textarea {
         width: 90%;
         height: 100px;
         margin: 2%;
         background-color: #f5f3f1;
       }
 
-      .contactform button{
+      .contactform button {
         width: 90px;
         height: 35px;
         margin: 2%;
@@ -1565,17 +1581,21 @@ textarea {
         color: #1c1b1b;
       }
 
-      input::placeholder{
+      input::placeholder {
         font-size: 14px;
         color: #1c1b1b;
         padding-left: 10px;
       }
 
-      textarea::placeholder{
+      textarea::placeholder {
         font-size: 14px;
         color: #1c1b1b;
         padding-left: 10px;
         padding-top: 5px;
+      }
+
+      .grid-item {
+        margin: 2%;
       }
 
       /* Footer Section */
@@ -1603,7 +1623,7 @@ textarea {
 
       /* Off Canvas Menu */
 
-      .hamburger{
+      .hamburger {
         font-size: 30px;
         cursor: pointer;
         color: #132121;
@@ -1650,36 +1670,28 @@ textarea {
 
       /* Begin Navigation Panel */
 
-      nav.main_nav ul{
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        background-color: #e3ded8;
-        overflow: hidden;
+      nav.main_nav ul {
         display: none;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
       }
 
       /* Begin Index Page Top Album Section */
 
-      div.top_album{
+      div.top_album {
         margin-top: 20px;
         margin-left: 15px;
         margin-right: 5px;
       }
 
-      div.top_album img{
+      div.top_album img {
         height: 170px;
         width: 170px;
       }
 
-      div.top_album .right{
+      div.top_album .right {
         display: none;
       }
 
-      div.center_me{
+      div.center_me {
         color: #1c1b1b;
         font-family: "Oswald", sans-serif;
         font-size: 18px;
@@ -1687,11 +1699,11 @@ textarea {
         margin: 15px;
       }
 
-      div.center_me p{
+      div.center_me p {
         margin-bottom: 10px;
       }
 
-      div.center_me a{
+      div.center_me a {
         color: #1c1b1b;
         font-family: "Oswald", sans-serif;
         font-size: 15px;
@@ -1703,14 +1715,14 @@ textarea {
 
       /* Begin Index Page Zamily Section */
 
-      div.zamily{
+      div.zamily {
         width: 100vw;
         height: 300px;
         background: #132121;
         margin-top: 30px;
       }
 
-      div.zamily .zamily_center{
+      div.zamily .zamily_center {
         font-family: "Oswald", sans-serif;
         font-size: 30px;
         color: #f5f3f1;
@@ -1718,7 +1730,7 @@ textarea {
         margin-top: 60px;
       }
 
-      div p1{
+      div p1 {
         font-family: "Cabin", sans-serif;
         font-size: 16pt;
         color: #f5f3f1;
@@ -1739,33 +1751,33 @@ textarea {
         align-items: center;
       }
 
-      .grid-item img{
+      .grid-item img {
         height: 74px;
         width: 74px;
       }
 
       /* Begin Index Page Music Section */
 
-      section.music{
+      section.music {
         background: #e3ded8;
         width: 100vw;
         height: 350px;
         margin-top: 0px;
       }
 
-      section ul.music_pics{
+      section ul.music_pics {
         flex-direction: row;
         display: flex;
         align: center;
       }
 
-      section ul.music_pics li{
+      section ul.music_pics li {
         list-style-type: none;
         flex-direction: row;
         margin: 20px;
       }
 
-      #first{
+      #first {
         position: absolute;
         width: 120px;
         height: 120px;
@@ -1773,7 +1785,7 @@ textarea {
         top: 675px;
       }
 
-      #second{
+      #second {
         position: absolute;
         width: 120px;
         height: 120px;
@@ -1781,7 +1793,7 @@ textarea {
         top: 675px;
       }
 
-      #top{
+      #top {
         position: absolute;
         width: 145px;
         height: 145px;
@@ -1789,12 +1801,12 @@ textarea {
         top: 660px;
       }
 
-      div.music_center{
+      div.music_center {
         position: relative;
         top: 130px;
-     }
+      }
 
-     div.music_center h1{
+      div.music_center h1 {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: 600;
@@ -1806,7 +1818,7 @@ textarea {
         width: 100%;
       }
 
-      div.music_center p1{
+      div.music_center p1 {
         font-family: "Cabin", sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -1818,12 +1830,12 @@ textarea {
         width: 100%;
       }
 
-      div.music_center div{
+      div.music_center div {
         padding-left: 115px;
         margin-top: 20px;
       }
 
-      div.music_center a{
+      div.music_center a {
         text-decoration: none;
         border: 2pt solid #1c1b1b;
         font-family: "Oswald", sans-serif;
@@ -1873,21 +1885,21 @@ textarea {
         margin-right: 2%;
       }
 
-      .smallcaps{
+      .smallcaps {
         text-transform: uppercase;
         font-family: "Cabin", sans-serif;
         font-size: 18px;
         line-height: 20px;
       }
 
-      .goodness{
+      .goodness {
         font-size: 20pt;
         text-transform: uppercase;
         width: 300px;
         padding: 10px 10px 10px 0px;
       }
 
-      .camp p{
+      .camp p {
         color: #f5f3f1;
         font-size: 15px;
         background: rgba(19, 33, 33, 0.6);
@@ -1895,7 +1907,7 @@ textarea {
         width: 80vw;
       }
 
-      a.fauxbutton{
+      a.fauxbutton {
         border: 1px solid #f5f3f1;
         color: #f5f3f1;
         text-decoration: none;
@@ -1906,20 +1918,20 @@ textarea {
 
       /* Begin About Page Main Section of People and Descriptions */
 
-      main.band_members{
+      main.band_members {
         background-color: #e3ded8;
         padding: 15px 15px 80px 15px;
       }
 
-      main.band_members section{
+      main.band_members section {
         width: 100vw;
       }
 
-      main.band_members section li{
+      main.band_members section li {
         list-style-type: none;
       }
 
-      main.band_members section li img.left_image{
+      main.band_members section li img.left_image {
         float: left;
         margin: 5px 5px 5px 5px;
         padding-top: 20px;
@@ -1928,7 +1940,7 @@ textarea {
         height: 90px;
       }
 
-      main.band_members section li img.right_image{
+      main.band_members section li img.right_image {
         float: right;
         margin: 5px 25px 8px 12px;
         padding-top: 40px;
@@ -1936,7 +1948,7 @@ textarea {
         height: 90px;
       }
 
-      main.band_members h1{
+      main.band_members h1 {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -1947,11 +1959,11 @@ textarea {
         padding-top: 20px;
       }
 
-      main.band_members h1.right{
+      main.band_members h1.right {
         padding: 40px 10px auto 0px;
       }
 
-      main.band_members p{
+      main.band_members p {
         font-family: "Cabin", sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -1964,7 +1976,7 @@ textarea {
         background-color: #f5f3f1;
       }
 
-      main.band_members p.left{
+      main.band_members p.left {
         width: 85vw;
         height: 160px;
         padding-bottom: 20px;
@@ -1974,18 +1986,18 @@ textarea {
 
       /* Tour Top Hero Section */
 
-      div.logo{
+      div.logo {
         height: 250px;
         margin-top: 75px;
       }
 
-      div.logo #concrete{
+      div.logo #concrete {
         position: absolute;
         width: 100vw;
         height: 250px;
       }
 
-      div.logo #logo{
+      div.logo #logo {
         position: relative;
         top: 45px;
         left: 25vw;
@@ -1995,104 +2007,104 @@ textarea {
 
       /* Tour Gridbox Settings */
 
-      main.tours.gridbox{
+      main.tours.gridbox {
         margin-left: 55px;
         margin-top: 20px;
       }
 
-       .gridbox{
-         display: flex;
-         justify-content: center;
-         align-items: baseline;
-         flex-direction: row;
-         width: 100%;
-         margin: 0 auto;
-       }
+      .gridbox {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+      }
 
-       .left_gridbox,
-       .right_gridbox{
-         width: 45%;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
-       }
+      .left_gridbox,
+      .right_gridbox {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
 
-       .left_gridbox ul,
-       .right_gridbox ul{
-         list-style-type: none;
-       }
+      .left_gridbox ul,
+      .right_gridbox ul {
+        list-style-type: none;
+      }
 
-       li.gridbox{
-         width: 1000px;
-       }
+      li.gridbox {
+        width: 1000px;
+      }
 
-       .gridbox div{
-         width: 800px;
-         margin-right: 20px;
-       }
+      .gridbox div {
+        width: 800px;
+        margin-right: 20px;
+      }
 
-       div.right_gridbox{
-         margin-left: 20px;
-       }
+      div.right_gridbox {
+        margin-left: 20px;
+      }
 
-       .right_gridbox ul{
-         width: 100%;
-       }
+      .right_gridbox ul {
+        width: 100%;
+      }
 
-       .right_gridbox button{
-         width: 120px;
-         height: 55px;
-         background-color: #1c1b1b;
-         border: none;
-         color: #f5f3f1;
-         font-size: 20px;
-         font-family: "Oswald", sans-serif;
-         text-transform: uppercase;
-         margin: 20%;
-       }
+      .right_gridbox button {
+        width: 120px;
+        height: 55px;
+        background-color: #1c1b1b;
+        border: none;
+        color: #f5f3f1;
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+        text-transform: uppercase;
+        margin: 20%;
+      }
 
-       .right_gridbox button a{
-         text-decoration: none;
-         color: #f5f3f1;
-       }
+      .right_gridbox button a {
+        text-decoration: none;
+        color: #f5f3f1;
+      }
 
-       .circledates{
-         width: 75px;
-         background-color: #1c1b1b;
-         font-family: "Oswald", sans-serif;
-         font-size: 30px;
-         color: #f5f3f1;
-         padding: 20px 20px;
-         border-radius: 50px;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
-         margin-left: 475px;
-         position: relative;
-         top: -10px;
-       }
+      .circledates {
+        width: 75px;
+        background-color: #1c1b1b;
+        font-family: "Oswald", sans-serif;
+        font-size: 30px;
+        color: #f5f3f1;
+        padding: 20px 20px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 475px;
+        position: relative;
+        top: -10px;
+      }
 
-       span.enlargeme{
-         font-size: 24px;
-         font-family: "Oswald", sans-serif;
-         color: #f5f3f5;
-       }
+      span.enlargeme {
+        font-size: 24px;
+        font-family: "Oswald", sans-serif;
+        color: #f5f3f5;
+      }
 
       /* Tour Locations */
 
-      main.tours{
+      main.tours {
         background-color: #f5f3f1;
         width: 50vw;
         margin: 125px 10px 75px 300px;
       }
 
-      main.tours ul{
+      main.tours ul {
         list-style-type: none;
       }
 
-      main.tours li h2{
+      main.tours li h2 {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -2101,7 +2113,7 @@ textarea {
         color: #1C1B1B;
       }
 
-      main.tours li p{
+      main.tours li p {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -2112,7 +2124,7 @@ textarea {
         padding: 5px 0px 10px 0px;
       }
 
-      #venue{
+      #venue {
         font-family: "Cabin", sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -2124,11 +2136,11 @@ textarea {
         color: #1c1b1b;
       }
 
-      section.buttons ul{
+      section.buttons ul {
         list-style-type: none;
       }
 
-      section.buttons{
+      section.buttons {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -2141,14 +2153,14 @@ textarea {
         position: relative;
       }
 
-      section.buttons a{
+      section.buttons a {
         text-decoration: none;
         color: #132121;
       }
 
       /* Music Top New Album */
 
-      section.new_album li{
+      section.new_album li {
         list-style-type: none;
         background-color: #132121;
         margin-top: 100px;
@@ -2157,12 +2169,12 @@ textarea {
         padding-left: 25px;
       }
 
-      section.new_album li img{
+      section.new_album li img {
         height: 131px;
         width: 131px;
       }
 
-      section.new_album h1{
+      section.new_album h1 {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -2179,7 +2191,7 @@ textarea {
         top: 170px;
       }
 
-      section.new_album h2{
+      section.new_album h2 {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: 600;
@@ -2211,40 +2223,41 @@ textarea {
         padding: 15px;
       }
 
-      .grid-container-2 .grid-item img{
+      .grid-container-2 .grid-item img {
         height: 131px;
         width: 131px;
       }
 
       /* Begin Header */
 
-      header{
+      header {
         background-color: #e3ded8;
         padding: 7px 5px 7px 5px;
       }
 
-      header p{
+      header p {
         margin: auto;
         font-family: "Cabin", sans-serif;
         font-size: 14px;
         color: #132121;
       }
 
-      header form input{
+      header form input {
         height: 35px;
         width: 80%;
         border: none;
         background-color: rgba(0,0,0,0);
+        margin-left: 30px;
       }
 
       /* Begin Banner */
-      section.banner{
-        margin: 10px;
+      section.banner {
+        margin: 10px 0px 10px 30px;
         max-width: 40%;
         position: absolute;
       }
 
-      section.banner img{
+      section.banner img {
         height: 43px;
         width: 43px;
         float: left;
@@ -2252,7 +2265,7 @@ textarea {
         position: relative;
       }
 
-      section.banner p{
+      section.banner p {
         font-family: "Oswald", sans-serif;
         color: #132121;
         font-size: 20px;
@@ -2264,7 +2277,7 @@ textarea {
 
       /* Contact Section */
 
-      .contact{
+      .contact {
         width: 100vw;
         display: flex;
         justify-content: center;
@@ -2276,42 +2289,39 @@ textarea {
         font-size: 13px;
       }
 
-      .contactform{
-        width: 80%;
+      .contactform {
+        width: 95%;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
       }
 
       .contact_left,
       .contact_right{
-        width: 80%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        color: #f5f3f1;
+        width: 100%;
       }
 
-      .contact_right{
+
+      .contact_right {
         padding-left: 10px;
       }
 
-      .contactform input{
+      .contactform input {
         width: 65%;
         height: 30px;
         margin: 5%;
         background-color: #f5f3f1;
       }
 
-      .contactform textarea{
+      .contactform textarea {
         width: 90%;
         height: 100px;
         margin: 2%;
         background-color: #f5f3f1;
       }
 
-      .contactform button{
+      .contactform button {
         width: 90px;
         height: 35px;
         margin: 2%;
@@ -2319,17 +2329,21 @@ textarea {
         color: #1c1b1b;
       }
 
-      input::placeholder{
+      input::placeholder {
         font-size: 13px;
         color: #1c1b1b;
         padding-left: 10px;
       }
 
-      textarea::placeholder{
+      textarea::placeholder {
         font-size: 13px;
         color: #1c1b1b;
         padding-left: 10px;
         padding-top: 5px;
+      }
+
+      .grid-item{
+        margin: 2%;
       }
 
       /* Footer Section */
