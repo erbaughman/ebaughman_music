@@ -27,33 +27,36 @@
   <!-- End Off Canvas Menu -->
 
   <!-- Beginning of top email banner -->
-  <header>
-    <form>
-      <input type="email" name="email" placeholder="ENTER YOUR EMAIL FOR UPDATES"></input>
-    </form>
-  </header>
-  <!-- Ending of top email banner -->
-
-  <!-- Beginning navigator panel -->
-  <section class="banner">
-      <img src="surface home/Mask Group.png" alt="header banner logo">
-        <p>ZAC BROWN BAND</p>
-  </section>
-
-  <nav class="main_nav">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="tour.html">Tour</a></li>
-      <li><a href="music.html">Music</a></li>
-    </ul>
-    <span class="hamburger" onclick="openNav()">&#9776;</span>
-  </nav>
+  <div class="headwrapper_vertical">
+    <header>
+      <form>
+        <input type="email" name="email" placeholder="ENTER YOUR EMAIL FOR UPDATES"></input>
+      </form>
+    </header>
+    <!-- Ending of top email banner -->
+  
+    <!-- Beginning navigator panel -->
+    <div class="headwrapper_horizontal">
+    <section class="banner">
+        <img src="surface home/Mask Group.png" alt="header banner logo">
+          <p>ZAC BROWN BAND</p>
+    </section>
+  
+    <nav class="main_nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="tour.html">Tour</a></li>
+        <li><a href="music.html">Music</a></li>
+      </ul>
+      <span class="hamburger" onclick="openNav()">&#9776;</span>
+    </nav>
+  </div>
+  </div>
   <!-- Ending navigator panel -->
 
   <!-- Beginning top logo (put concrete texture in background)-->
-  <div class="logo">
-    <img id="concrete" src="surface tour/concrete texture.jpg" alt="concrete">
+  <div class="tourhome">
     <img id="logo" src="surface tour/Mask Group.png" alt="logo">
   </div>
   <!-- Ending top logo -->
@@ -61,10 +64,10 @@
   <!-- Beginning main section of tours -->
   <main class="tours gridbox">
 
-    <div class="left_gridbox">
-    <ul>
-      <li class="gridbox">
-        <div>
+    <ul class="widegridbox">
+      <li class="tourwrapper_horizontal">
+        <div class="tourinfo">
+          <div>
           <p class="circledates">
             JUN<br/><span class="enlargeme">26</span>
           </p>
@@ -74,10 +77,16 @@
           <h2>Dallas, Texas</h2>
           <p id="venue">American Airlines Center</p>
         </div>
+        </div>
+
+        <div>
+          <button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button>
+        </div>
       </li>
 
-      <li class="gridbox">
-        <div>
+      <li class="tourwrapper_horizontal">
+        <div class="tourinfo">
+          <div>
           <p class="circledates">
             JUL<br/><span class="enlargeme">03</span>
           </p>
@@ -87,10 +96,16 @@
           <h2>Austin, Texas</h2>
           <p id="venue">The Venue ATX</p>
         </div>
+        </div>
+
+        <div>
+          <button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button>
+        </div>
       </li>
 
-      <li class="gridbox">
-        <div>
+      <li class="tourwrapper_horizontal">
+        <div class="tourinfo">
+          <div>
           <p class="circledates">
             JUL<br/><span class="enlargeme">10</span>
           </p>
@@ -98,25 +113,37 @@
 
         <div>
           <h2>Kansas City, Missouri</h2>
-          <p id="venue">CrossroadsKC</p>
+          <p id="venue">CrossroadsKS</p>
+        </div>
+        </div>
+
+        <div>
+          <button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button>
         </div>
       </li>
 
-      <li class="gridbox">
-        <div>
+      <li class="tourwrapper_horizontal">
+        <div class="tourinfo">
+          <div>
           <p class="circledates">
             JUL<br/><span class="enlargeme">17</span>
           </p>
         </div>
 
         <div>
-          <h2>Chesapeake Bay, Virginia</h2>
+          <h2>Chespeake Bay, Virginia</h2>
           <p id="venue">Atlantic Union Bank Pavillion</p>
+        </div>
+        </div>
+
+        <div>
+          <button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button>
         </div>
       </li>
 
-      <li class="gridbox">
-        <div>
+      <li class="tourwrapper_horizontal">
+        <div class="tourinfo">
+          <div>
           <p class="circledates">
             JUL<br/><span class="enlargeme">24</span>
           </p>
@@ -126,10 +153,16 @@
           <h2>Lincoln, Nebraska</h2>
           <p id="venue">Royal Grove</p>
         </div>
+        </div>
+
+        <div>
+          <button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button>
+        </div>
       </li>
 
-      <li class="gridbox">
-        <div>
+      <li class="tourwrapper_horizontal">
+        <div class="tourinfo">
+          <div>
           <p class="circledates">
             JUL<br/><span class="enlargeme">31</span>
           </p>
@@ -139,10 +172,16 @@
           <h2>Seattle, Washington</h2>
           <p id="venue">Neumos</p>
         </div>
+        </div>
+
+        <div>
+          <button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button>
+        </div>
       </li>
 
-      <li class="gridbox">
-        <div>
+      <li class="tourwrapper_horizontal">
+        <div class="tourinfo">
+          <div>
           <p class="circledates">
             AUG<br/><span class="enlargeme">07</span>
           </p>
@@ -150,25 +189,17 @@
 
         <div>
           <h2>Henderson, Nevada</h2>
-          <p >Club Madrid</p>
+          <p id="venue">Club Madrid</p>
+        </div>
+        </div>
+
+        <div>
+          <button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button>
         </div>
       </li>
 
     </ul>
-  </div>
 
-  <div class="right_gridbox">
-    <ul>
-      <li><button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button></li>
-      <li><button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button></li>
-      <li><button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button></li>
-      <li><button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button></li>
-      <li><button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button></li>
-      <li><button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button></li>
-      <li><button type="button" name="ticket"><a href="https://www.ticketmaster.com/">Tickets</a></button></li>
-    </ul>
-
-  </div>
   </main>
   <!-- Ending main section of tours -->
 
