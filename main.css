@@ -404,9 +404,47 @@ textarea {
 
    /* Tour Gridbox Settings */
 
-   main.tours.gridbox {
-     margin-left: 215px;
-   }
+   .tourhome {
+     height: 300px;
+    }
+
+    img#logo {
+     width: 337px;
+    }
+
+    .tourwrapper_horizontal {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     margin: 1%;
+    }
+
+    .widegridbox {
+      margin-left: 50vw;
+    }
+
+    button {
+     width: 290px;
+     margin: 1% 0% 5% 100px;
+     padding: 10px 0px 10px 0px;
+     background-color: #1c1b1b;
+     border: none;
+     color: #f5f3f1;
+     font-size: 20px;
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+    }
+
+    button a {
+      text-decoration: none;
+      color: #f5f3f1;
+    }
+
+    main.tours.gridbox {
+      margin-left: 215px;
+    }
 
     .gridbox {
       display: flex;
@@ -415,20 +453,6 @@ textarea {
       flex-direction: row;
       width: 100%;
       margin: 0 auto;
-    }
-
-    .left_gridbox,
-    .right_gridbox {
-      width: 45%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-
-    .left_gridbox ul,
-    .right_gridbox ul {
-      list-style-type: none;
     }
 
     li.gridbox {
@@ -440,51 +464,25 @@ textarea {
       margin-right: 20px;
     }
 
-    div.right_gridbox {
-      margin-left: 75px;
-      margin-right: 75px;
-    }
-
-    .right_gridbox ul {
-      width: 100%;
-    }
-
-    .right_gridbox button {
-      width: 120px;
-      height: 55px;
-      background-color: #1c1b1b;
-      border: none;
-      color: #f5f3f1;
-      font-size: 20px;
-      font-family: "Oswald", sans-serif;
-      text-transform: uppercase;
-      margin: 24% 35%;
-    }
-
-    .right_gridbox button a {
-      text-decoration: none;
-      color: #f5f3f1;
-    }
-
     .circledates {
-      width: 75px;
+      width: 70px;
       background-color: #1c1b1b;
       font-family: "Oswald", sans-serif;
       font-size: 10px;
       color: #f5f3f1;
-      padding: 32px 32px;
-      border-radius: 30px;
+      padding: 80px 80px;
+      border-radius: 70px;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      margin-left: 450px;
+      margin-left: -10px;
       position: relative;
-      top: -10px;
+      top: 10px;
     }
 
     span.enlargeme {
-      font-size: 26px;
+      font-size: 34px;
       font-family: "Oswald", sans-serif;
       color: #f5f3f5;
     }
@@ -508,6 +506,8 @@ textarea {
      font-size: 48px;
      line-height: 71px;
      color: #1C1B1B;
+     padding-left: 100px;
+     margin-top: -80px;
    }
 
    main.tours li p {
@@ -529,30 +529,8 @@ textarea {
      line-height: 29px;
      color: #f5f3f1;
      margin: none;
-     padding: 0px 0px 10px 0px;
+     padding: 0px 0px 10px 100px;
      color: #1c1b1b;
-   }
-
-   section.buttons ul {
-     list-style-type: none;
-   }
-
-   section.buttons {
-     font-family: "Oswald", sans-serif;
-     font-style: normal;
-     font-weight: bold;
-     font-size: 36px;
-     line-height: 53px;
-     display: flex;
-     align-items: center;
-     text-align: center;
-     float: right;
-     position: relative;
-   }
-
-   section.buttons a {
-     text-decoration: none;
-     color: #132121;
    }
 
    /* Music Top New Album */
@@ -796,6 +774,8 @@ textarea {
       margin: 2%;
       background-color: #f5f3f1;
       color: #1c1b1b;
+      text-transform: none;
+      font-family: "Cabin", sans-serif;
     }
 
     input::placeholder {
@@ -877,9 +857,7 @@ textarea {
 
     /* Begin Media Query for iPad */
 
-    @media screen and (max-width: 768px) {
-      .sidenav {padding-top: 15px;}
-      .sidenav a {font-size: 18px;}
+    @media only screen and (max-width: 768px) {
 
       /* Begin Index Page Top Album Section */
 
@@ -1187,109 +1165,106 @@ textarea {
       /* Tour Top Hero Section */
 
       div.logo {
-        height: 300px;
-        margin-top: 75px;
+        height: 250px;
+        margin-top: 90px;
       }
 
       div.logo #concrete {
         position: absolute;
         width: 100vw;
+        height: 285px;
       }
 
       div.logo #logo {
         position: relative;
-        top: 45px;
-        left: 38vw;
-        height: 172px;
-        width: 172px;
+        top: 30px;
+        left: 35vw;
       }
 
       /* Tour Gridbox Settings */
 
-      main.tours.gridbox {
-        margin-left: 55px;
-        margin-top: 20px;
-      }
+      .tourhome {
+        height: 300px;
+       }
 
-      .gridbox {
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
-        flex-direction: row;
+       img#logo {
+        width: 220px;
+       }
+
+       .tourwrapper_horizontal {
         width: 100%;
-        margin: 0 auto;
-      }
-
-      .left_gridbox,
-      .right_gridbox {
-        width: 45%;
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-      }
+        justify-content: space-between;
+        align-items: center;
+        margin: 1%;
+       }
 
-      .left_gridbox ul,
-      .right_gridbox ul {
-        list-style-type: none;
-      }
+       .widegridbox {
+         margin-left: 60vw;
+       }
 
-      li.gridbox {
-        width: 1000px;
-      }
-
-      .gridbox div {
-        width: 800px;
-        margin-right: 20px;
-      }
-
-      div.right_gridbox {
-        margin-left: 20px;
-      }
-
-      .right_gridbox ul {
-        width: 100%;
-      }
-
-      .right_gridbox button {
-        width: 120px;
-        height: 55px;
+       button {
+        width: 290px;
+        margin: 1% 0% 5% 100px;
+        padding: 10px 0px 10px 0px;
         background-color: #1c1b1b;
         border: none;
         color: #f5f3f1;
         font-size: 20px;
         font-family: "Oswald", sans-serif;
         text-transform: uppercase;
-        margin: 20%;
-      }
+       }
 
-      .right_gridbox button a {
-        text-decoration: none;
-        color: #f5f3f1;
-      }
+       button a {
+         text-decoration: none;
+         color: #f5f3f1;
+       }
 
-      .circledates {
-        width: 75px;
-        background-color: #1c1b1b;
-        font-family: "Oswald", sans-serif;
-        font-size: 36px;
-        color: #f5f3f1;
-        padding: 32px 32px;
-        border-radius: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-left: 400px;
-        position: relative;
-        top: -10px;
-      }
+       main.tours.gridbox {
+         margin-left: 215px;
+       }
 
-      span.enlargeme {
-        font-size: 30px;
-        font-family: "Oswald", sans-serif;
-        color: #f5f3f5;
-      }
+       .gridbox {
+         display: flex;
+         justify-content: center;
+         align-items: baseline;
+         flex-direction: row;
+         width: 100%;
+         margin: 0 auto;
+       }
+
+       li.gridbox {
+         width: 1200px;
+       }
+
+       .gridbox div {
+         width: 1000px;
+         margin-right: 20px;
+       }
+
+       .circledates {
+         width: 70px;
+         background-color: #1c1b1b;
+         font-family: "Oswald", sans-serif;
+         font-size: 10px;
+         color: #f5f3f1;
+         padding: 80px 80px;
+         border-radius: 70px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         margin-left: -10px;
+         position: relative;
+         top: 10px;
+       }
+
+       span.enlargeme {
+         font-size: 34px;
+         font-family: "Oswald", sans-serif;
+         color: #f5f3f5;
+       }
 
       /* Tour Locations */
 
@@ -1307,16 +1282,18 @@ textarea {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: bold;
-        font-size: 36px;
-        line-height: 65px;
+        font-size: 40px;
+        line-height: 71px;
         color: #1C1B1B;
+        padding-left: 100px;
+        margin-top: -80px;
       }
 
       main.tours li p {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 29px;
         color: #f5f3f1;
         margin: none;
@@ -1327,34 +1304,12 @@ textarea {
         font-family: "Cabin", sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 24px;
         line-height: 29px;
         color: #f5f3f1;
         margin: none;
-        padding: 0px 0px 10px 0px;
+        padding: 0px 0px 10px 100px;
         color: #1c1b1b;
-      }
-
-      section.buttons ul {
-        list-style-type: none;
-      }
-
-      section.buttons {
-        font-family: "Oswald", sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 53px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        float: right;
-        position: relative;
-      }
-
-      section.buttons a {
-        text-decoration: none;
-        color: #132121;
       }
 
       /* Music Top New Album */
@@ -1579,6 +1534,7 @@ textarea {
         margin: 2%;
         background-color: #f5f3f1;
         color: #1c1b1b;
+        font-size: 14px;
       }
 
       input::placeholder {
@@ -1600,7 +1556,7 @@ textarea {
 
       /* Footer Section */
 
-      footer{
+      footer {
         width: 100vw;
         display: flex;
         justify-content: center;
@@ -1615,7 +1571,7 @@ textarea {
 
     /* Begin Media Query for iPhone */
 
-    @media screen and (max-width: 320px) {
+    @media only screen and (max-width: 320px) {
       .sidenav {padding-top: 15px;}
       .sidenav a {font-size: 18px;}
 
@@ -1647,7 +1603,7 @@ textarea {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 25px;
-        color: #818181;
+        color: #e3ded8;
         display: block;
         transition: 0.3s;
       }
@@ -1664,8 +1620,8 @@ textarea {
         margin-left: 50px;
       }
 
-      #main {
-        transition: margin-right .5s;
+      #mySidenav {
+        transition: margin-left .5s;
       }
 
       /* Begin Navigation Panel */
@@ -2001,96 +1957,93 @@ textarea {
         position: relative;
         top: 45px;
         left: 25vw;
-        height: 172px;
-        width: 172px;
       }
 
       /* Tour Gridbox Settings */
 
-      main.tours.gridbox {
-        margin-left: 55px;
-        margin-top: 20px;
-      }
+      .tourhome {
+        height: 300px;
+       }
 
-      .gridbox {
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
-        flex-direction: row;
-        width: 100%;
-        margin: 0 auto;
-      }
+       img#logo {
+        width: 172px;
+       }
 
-      .left_gridbox,
-      .right_gridbox {
-        width: 45%;
+       .tourwrapper_horizontal {
+        width: 100vw;
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-      }
+        justify-content: space-between;
+        align-items: center;
+        margin: 1%;
+       }
 
-      .left_gridbox ul,
-      .right_gridbox ul {
-        list-style-type: none;
-      }
+       .widegridbox {
+         margin-left: 10vw;
+       }
 
-      li.gridbox {
-        width: 1000px;
-      }
-
-      .gridbox div {
-        width: 800px;
-        margin-right: 20px;
-      }
-
-      div.right_gridbox {
-        margin-left: 20px;
-      }
-
-      .right_gridbox ul {
-        width: 100%;
-      }
-
-      .right_gridbox button {
-        width: 120px;
-        height: 55px;
+       button {
+        width: 100px;
+        margin: 0px 0px 40px 275px;
+        padding: 5px 0px 5px 0px;
         background-color: #1c1b1b;
         border: none;
         color: #f5f3f1;
-        font-size: 20px;
+        font-size: 18px;
         font-family: "Oswald", sans-serif;
         text-transform: uppercase;
-        margin: 20%;
-      }
+       }
 
-      .right_gridbox button a {
-        text-decoration: none;
-        color: #f5f3f1;
-      }
+       button a {
+         text-decoration: none;
+         color: #f5f3f1;
+       }
 
-      .circledates {
-        width: 75px;
-        background-color: #1c1b1b;
-        font-family: "Oswald", sans-serif;
-        font-size: 30px;
-        color: #f5f3f1;
-        padding: 20px 20px;
-        border-radius: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-left: 475px;
-        position: relative;
-        top: -10px;
-      }
+       main.tours.gridbox {
+         margin-left: 215px;
+         margin-top: 50px;
+       }
 
-      span.enlargeme {
-        font-size: 24px;
-        font-family: "Oswald", sans-serif;
-        color: #f5f3f5;
-      }
+       .gridbox {
+         display: flex;
+         justify-content: center;
+         align-items: baseline;
+         flex-direction: row;
+         width: 100%;
+         margin: 0 auto;
+       }
+
+       li.gridbox {
+         width: 1200px;
+       }
+
+       .gridbox div {
+         width: 1000px;
+         margin-right: 20px;
+       }
+
+       .circledates {
+         width: 50px;
+         background-color: #1c1b1b;
+         font-family: "Oswald", sans-serif;
+         font-size: 10px;
+         color: #f5f3f1;
+         padding: 40px 40px;
+         border-radius: 45px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         margin-left: 210px;
+         position: relative;
+         top: 0px;
+       }
+
+       span.enlargeme {
+         font-size: 20px;
+         font-family: "Oswald", sans-serif;
+         color: #f5f3f5;
+       }
 
       /* Tour Locations */
 
@@ -2108,17 +2061,19 @@ textarea {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: bold;
-        font-size: 20px;
-        line-height: 40px;
+        font-size: 22px;
+        line-height: 35px;
         color: #1C1B1B;
+        padding-left: 275px;
+        margin-top: -65px;
       }
 
       main.tours li p {
         font-family: "Oswald", sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 15px;
-        line-height: 25px;
+        font-size: 14px;
+        line-height: 20px;
         color: #f5f3f1;
         margin: none;
         padding: 5px 0px 10px 0px;
@@ -2128,34 +2083,12 @@ textarea {
         font-family: "Cabin", sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 15px;
-        line-height: 25px;
+        font-size: 16px;
+        line-height: 22px;
         color: #f5f3f1;
         margin: none;
-        padding: 0px 0px 10px 0px;
+        padding: 0px 0px 10px 275px;
         color: #1c1b1b;
-      }
-
-      section.buttons ul {
-        list-style-type: none;
-      }
-
-      section.buttons {
-        font-family: "Oswald", sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 53px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        float: right;
-        position: relative;
-      }
-
-      section.buttons a {
-        text-decoration: none;
-        color: #132121;
       }
 
       /* Music Top New Album */
